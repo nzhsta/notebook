@@ -1,0 +1,7 @@
+{
+  "showFrontmatter": true,
+  "strictLineBreaks": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./images"
+}
