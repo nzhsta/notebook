@@ -23,9 +23,11 @@
             "id": "ae4c516d0d2e6afb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2023-04-13 21.56.40.excalidraw.md"
+                "file": "eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -49,7 +51,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-04-13 21.56.40.excalidraw.md"
+                "file": "eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md"
               }
             }
           },
@@ -107,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-04-13 21.56.40.excalidraw.md",
+                "file": "eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-04-13 21.56.40.excalidraw.md",
+                "file": "eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,10 +184,10 @@
   },
   "active": "ae4c516d0d2e6afb",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-04-13 21.56.40.excalidraw.md",
     "README.md",
     "Excalidraw/fonts/清松手写体1-Light.ttf",
     "eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
-    "Excalidraw/Drawing 2023-04-13 21.56.40.excalidraw.md",
     "Excalidraw/fonts/1629193404641970.ttf",
     "Excalidraw/fonts",
     "Excalidraw/新建文件夹",
