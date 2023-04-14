@@ -4,5 +4,6 @@
   "textFontFamily": "宋体",
   "theme": "obsidian",
   "interfaceFontFamily": "霞鹜文楷",
-  "monospaceFontFamily": "Consolas"
+  "monospaceFontFamily": "Consolas",
+  "baseFontSize": 19
 }

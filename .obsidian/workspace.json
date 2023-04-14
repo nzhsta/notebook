@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ae4c516d0d2e6afb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +38,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md"
+                "file": "eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md"
               }
             }
           },
@@ -109,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md",
+                "file": "eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md",
+                "file": "eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,8 +169,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ae4c516d0d2e6afb",
+  "active": "8e9f71ad8cc295fc",
   "lastOpenFiles": [
+    "eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md",
     "Excalidraw/Drawing 2023-04-13 21.56.40.excalidraw.md",
     "README.md",
     "Excalidraw/fonts/清松手写体1-Light.ttf",
@@ -195,7 +183,6 @@
     "eat_pyspark_in_10_days-master/images/Pasted image 20230413003613.png",
     "eat_pyspark_in_10_days-master/images",
     "Pasted image 20230413003430.png",
-    "eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md",
     "eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "Hello.md",
     "Excalidraw/Drawing 2023-04-12 23.20.48.excalidraw.md",
