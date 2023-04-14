@@ -161,8 +161,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fbbd098fe956e664",
+  "active": "8e9f71ad8cc295fc",
   "lastOpenFiles": [
+    "learning notebook/test",
+    "learning notebook/eat_pyspark_in_10_days-master/未命名",
     "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/metadata/_SUCCESS",
     "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/metadata/part-00000",
     "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/data/_SUCCESS",
@@ -172,8 +174,6 @@
     "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/0_Tokenizer_ae02cbcf4008/metadata/_SUCCESS",
     "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/0_Tokenizer_ae02cbcf4008/metadata/part-00000",
     "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/metadata",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/data",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/1_HashingTF_ea73417aacc8/metadata",
     "learning notebook/eat_pyspark_in_10_days-master/data/算法美食屋二维码.png",
     "learning notebook/eat_pyspark_in_10_days-master/data/算法美食屋二维码.jpg",
     "learning notebook/eat_pyspark_in_10_days-master/data/宽依赖窄依赖.png",
