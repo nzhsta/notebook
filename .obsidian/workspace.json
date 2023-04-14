@@ -11,12 +11,8 @@
             "id": "fbbd098fe956e664",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -37,9 +33,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md"
-              }
+              "state": {}
             }
           },
           {
@@ -96,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,46 +161,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8e9f71ad8cc295fc",
+  "active": "fbbd098fe956e664",
   "lastOpenFiles": [
+    "eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
+    "学习笔记/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/data/_SUCCESS",
+    "学习笔记/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/data/part-00000-d1fdc1cb-3bf4-429c-ab2f-fef48f9cd96c-c000.snappy.parquet",
+    "学习笔记/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/metadata/_SUCCESS",
+    "学习笔记/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/metadata/part-00000",
+    "学习笔记/eat_pyspark_in_10_days-master/data/mymodel.model/stages/1_HashingTF_ea73417aacc8/metadata/_SUCCESS",
+    "学习笔记/eat_pyspark_in_10_days-master/data/mymodel.model/stages/1_HashingTF_ea73417aacc8/metadata/part-00000",
+    "学习笔记/eat_pyspark_in_10_days-master/data/mymodel.model/stages/0_Tokenizer_ae02cbcf4008/metadata/_SUCCESS",
+    "学习笔记/eat_pyspark_in_10_days-master/data/mymodel.model/stages/0_Tokenizer_ae02cbcf4008/metadata/part-00000",
+    "学习笔记/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/data",
+    "学习笔记/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/metadata",
+    "学习笔记/eat_pyspark_in_10_days-master/data/算法美食屋二维码.png",
+    "学习笔记/eat_pyspark_in_10_days-master/data/算法美食屋二维码.jpg",
+    "学习笔记/eat_pyspark_in_10_days-master/data/宽依赖窄依赖.png",
+    "学习笔记/eat_pyspark_in_10_days-master/data/和鲸鱼社区pyspark.png",
+    "学习笔记/eat_pyspark_in_10_days-master/data/wordcount范例.png",
+    "学习笔记/eat_pyspark_in_10_days-master/data/Unbouded_DataFrame.png",
+    "学习笔记/eat_pyspark_in_10_days-master/data/stage切割原理.png",
+    "学习笔记/eat_pyspark_in_10_days-master/data/spark通用性.png",
+    "学习笔记/eat_pyspark_in_10_days-master/data/spark架构运行特点.png",
+    "学习笔记/eat_pyspark_in_10_days-master/data/spark架构设计.png",
+    "学习笔记/eat_pyspark_in_10_days-master/README.md",
+    "学习笔记/eat_pyspark_in_10_days-master/SUMMARY.md",
+    "学习笔记/eat_pyspark_in_10_days-master/4-2,初识StructuredStreaming.md",
+    "学习笔记/eat_pyspark_in_10_days-master/4-1,探索MLlib机器学习.md",
+    "学习笔记/eat_pyspark_in_10_days-master/3-2,RDD和SparkSQL综合应用.md",
+    "学习笔记/eat_pyspark_in_10_days-master/3-1,Spark性能调优方法.md",
+    "学习笔记/eat_pyspark_in_10_days-master/2-4,7道SparkSQL编程练习题.md",
+    "学习笔记/eat_pyspark_in_10_days-master/2-3,2小时入门SparkSQL编程.md",
+    "学习笔记/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
+    "学习笔记/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
+    "学习笔记/eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md",
+    "学习笔记/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md",
     "Excalidraw/Drawing 2023-04-13 21.56.40.excalidraw.md",
     "README.md",
-    "Excalidraw/fonts/清松手写体1-Light.ttf",
-    "eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
-    "Excalidraw/fonts/1629193404641970.ttf",
-    "Excalidraw/fonts",
-    "Excalidraw/新建文件夹",
-    "新建文件夹",
-    "eat_pyspark_in_10_days-master/images/Pasted image 20230413003613.png",
-    "eat_pyspark_in_10_days-master/images",
-    "Pasted image 20230413003430.png",
     "eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "Hello.md",
     "Excalidraw/Drawing 2023-04-12 23.20.48.excalidraw.md",
-    "Excalidraw",
     "eat_pyspark_in_10_days-master/4-2,初识StructuredStreaming.md",
     "eat_pyspark_in_10_days-master/SUMMARY.md",
     "spark/spark.md",
-    "eat_pyspark_in_10_days-master/data/trading_data/9.json",
-    "eat_pyspark_in_10_days-master/data/trading_data/8.json",
-    "eat_pyspark_in_10_days-master/data/trading_data/7.json",
-    "eat_pyspark_in_10_days-master/data/算法美食屋二维码.png",
-    "eat_pyspark_in_10_days-master/data/算法美食屋二维码.jpg",
-    "eat_pyspark_in_10_days-master/data/宽依赖窄依赖.png",
-    "eat_pyspark_in_10_days-master/data/和鲸鱼社区pyspark.png",
-    "eat_pyspark_in_10_days-master/data/wordcount范例.png",
-    "eat_pyspark_in_10_days-master/data/Unbouded_DataFrame.png",
-    "eat_pyspark_in_10_days-master/data/stage切割原理.png",
-    "eat_pyspark_in_10_days-master/data/spark通用性.png",
     "eat_pyspark_in_10_days-master/README.md",
     "eat_pyspark_in_10_days-master/4-1,探索MLlib机器学习.md",
     "eat_pyspark_in_10_days-master/3-2,RDD和SparkSQL综合应用.md",
-    "eat_pyspark_in_10_days-master/3-1,Spark性能调优方法.md",
-    "eat_pyspark_in_10_days-master/2-4,7道SparkSQL编程练习题.md",
-    "eat_pyspark_in_10_days-master/2-3,2小时入门SparkSQL编程.md",
-    "eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
-    "2023-04-12.md",
     "未命名.canvas"
   ]
 }
