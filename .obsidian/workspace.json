@@ -11,8 +11,12 @@
             "id": "fbbd098fe956e664",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "learning notebook/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -33,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "learning notebook/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md"
+              }
             }
           },
           {
@@ -90,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "learning notebook/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "learning notebook/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +177,7 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "3ae657058e4316a3",
+  "active": "fbbd098fe956e664",
   "lastOpenFiles": [
     "learning notebook/test/未命名.md",
     "learning notebook/test",
