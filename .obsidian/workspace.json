@@ -137,9 +137,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "3ae657058e4316a3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -161,7 +169,7 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "8e9f71ad8cc295fc",
+  "active": "3ae657058e4316a3",
   "lastOpenFiles": [
     "learning notebook/test/未命名.md",
     "learning notebook/test",
