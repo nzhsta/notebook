@@ -157,8 +157,8 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian42-brat:BRAT": false,
-      "remotely-save:Remotely Save": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "8e9f71ad8cc295fc",
