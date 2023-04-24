@@ -177,8 +177,16 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "3ae657058e4316a3",
+  "active": "fbbd098fe956e664",
   "lastOpenFiles": [
+    "machine learning/house price/data",
+    "machine learning/house price/comprehensive-data-exploration-with-python.ipynb",
+    "machine learning/house price",
+    "machine learning/price",
+    "machine learning/未命名文件夹",
+    "machine learning",
+    "mechanism",
+    "未命名文件夹",
     "learning notebook/eat_pyspark_in_10_days-master/2-3,2小时入门SparkSQL编程.md",
     "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
@@ -187,13 +195,6 @@
     "learning notebook/test",
     "learning notebook/eat_pyspark_in_10_days-master/未命名",
     "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/metadata/_SUCCESS",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/metadata/part-00000",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/data/_SUCCESS",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/data/part-00000-d1fdc1cb-3bf4-429c-ab2f-fef48f9cd96c-c000.snappy.parquet",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/1_HashingTF_ea73417aacc8/metadata/_SUCCESS",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/1_HashingTF_ea73417aacc8/metadata/part-00000",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/0_Tokenizer_ae02cbcf4008/metadata/_SUCCESS",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/0_Tokenizer_ae02cbcf4008/metadata/part-00000",
     "learning notebook/eat_pyspark_in_10_days-master/data/算法美食屋二维码.png",
     "learning notebook/eat_pyspark_in_10_days-master/data/算法美食屋二维码.jpg",
     "learning notebook/eat_pyspark_in_10_days-master/data/宽依赖窄依赖.png",
@@ -224,7 +225,6 @@
     "learning/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "learning/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
     "learning/eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md",
-    "eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
     "未命名.canvas"
   ]
 }
