@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning notebook/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
+                "file": "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning notebook/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md"
+                "file": "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning notebook/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
+                "file": "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learning notebook/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
+                "file": "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,6 +179,10 @@
   },
   "active": "fbbd098fe956e664",
   "lastOpenFiles": [
+    "learning notebook/eat_pyspark_in_10_days-master/2-3,2小时入门SparkSQL编程.md",
+    "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
+    "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
+    "learning notebook/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
     "learning notebook/test/未命名.md",
     "learning notebook/test",
     "learning notebook/eat_pyspark_in_10_days-master/未命名",
@@ -207,11 +211,7 @@
     "learning notebook/eat_pyspark_in_10_days-master/2-4,7道SparkSQL编程练习题.md",
     "learning notebook/eat_pyspark_in_10_days-master/3-2,RDD和SparkSQL综合应用.md",
     "learning notebook/eat_pyspark_in_10_days-master/3-1,Spark性能调优方法.md",
-    "learning notebook/eat_pyspark_in_10_days-master/2-3,2小时入门SparkSQL编程.md",
-    "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
-    "learning notebook/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
     "learning notebook/eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md",
-    "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "learning/eat_pyspark_in_10_days-master/SUMMARY.md",
     "learning/eat_pyspark_in_10_days-master/README.md",
     "learning/eat_pyspark_in_10_days-master/4-2,初识StructuredStreaming.md",
