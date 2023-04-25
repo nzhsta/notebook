@@ -179,6 +179,7 @@
   },
   "active": "fbbd098fe956e664",
   "lastOpenFiles": [
+    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
     "machine learning/house price/data/train.csv",
     "machine learning/house price/data/test.csv",
     "machine learning/house price/data/sample_submission.csv",
@@ -189,7 +190,6 @@
     "machine learning/house price/data/house-prices-advanced-regression-techniques/sample_submission.csv",
     "machine learning/house price/data/house-prices-advanced-regression-techniques",
     "machine learning/house price/data/house-prices-advanced-regression-techniques.zip",
-    "machine learning/house price/data",
     "learning notebook/eat_pyspark_in_10_days-master/2-3,2小时入门SparkSQL编程.md",
     "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
