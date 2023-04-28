@@ -1949,14 +1949,16 @@ settings:
 		step: 1
 		format: px
 .cm-s-obsidian .cm-header,
+
+
+*/
+.cm-s-obsidian .cm-header,
 .cm-s-obsidian .cm-strong {
-  font-weight: 900;
+  font-weight: 1600;
 }
 
 strong {
 
-  font-weight: 900;
+  font-weight: 1600;
 
-} 
-
-*/
+}
