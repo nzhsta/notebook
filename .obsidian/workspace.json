@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "fd773b357bfe9551",
+        "id": "a17468050f793757",
         "type": "tabs",
         "children": [
           {
-            "id": "9366bf4d6cd1c126",
+            "id": "f26c111bab1b1243",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "machine learning/house price/document/stacked-regress (auto-Z) - JupyterLab.pdf"
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "279fcc3582d3a00b",
+            "type": "leaf",
+            "state": {
+              "type": "ipynb",
+              "state": {
+                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb"
               }
             }
           }
@@ -36,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "machine learning/house price/document/stacked-regress (auto-Z) - JupyterLab.pdf"
+                "file": "machine learning/house price/stack_regression 阅读笔记.md"
               }
             }
           },
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "machine learning/house price/document/stacked-regress (auto-Z) - JupyterLab.pdf",
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "machine learning/house price/document/stacked-regress (auto-Z) - JupyterLab.pdf",
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,13 +188,13 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "8e9f71ad8cc295fc",
+  "active": "f26c111bab1b1243",
   "lastOpenFiles": [
+    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
     "machine learning/house price/stack_regression 阅读笔记.md",
+    "machine learning/house price/document/stacked-regress (auto-Z) - JupyterLab.pdf",
     "machine learning/house price/comprehensive-data-exploration-with-python.ipynb",
     "2023-04-28.md",
-    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
-    "machine learning/house price/document/stacked-regress (auto-Z) - JupyterLab.pdf",
     "machine learning/house price/document",
     "machine learning/house price/documents",
     "machine learning/house price/未命名文件夹",
