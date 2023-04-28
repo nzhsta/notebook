@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "8fd6fbacc44ac7db",
+        "id": "d602e5bea4713453",
         "type": "tabs",
         "children": [
           {
-            "id": "928ede264467daa5",
+            "id": "a01e401729a1a567",
             "type": "leaf",
             "state": {
-              "type": "ipynb",
+              "type": "markdown",
               "state": {
-                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb"
+                "file": "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -36,7 +38,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb"
+                "file": "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md"
               }
             }
           },
@@ -94,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
+                "file": "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
+                "file": "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -172,16 +174,17 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "928ede264467daa5",
+  "active": "7f7dfc0810f47c54",
   "lastOpenFiles": [
+    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
     "machine learning/house price/未命名.md",
     "machine learning/house price/comprehensive-data-exploration-with-python.ipynb",
     "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
-    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
     "machine learning/house price/data/train.csv",
     "machine learning/house price/data/test.csv",
     "machine learning/house price/data/sample_submission.csv",
