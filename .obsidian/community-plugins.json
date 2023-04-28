@@ -13,5 +13,6 @@
   "templater-obsidian",
   "Enhanced-editing",
   "obsidian-excel-to-markdown-table",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-jupyter"
 ]
