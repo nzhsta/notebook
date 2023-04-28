@@ -4,32 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "a17468050f793757",
-        "type": "tabs",
+        "id": "21726199f1de2c8d",
+        "type": "split",
         "children": [
           {
-            "id": "f26c111bab1b1243",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "machine learning/house price/stack_regression 阅读笔记.md",
-                "mode": "source",
-                "source": false
+            "id": "a17468050f793757",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f26c111bab1b1243",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "machine learning/house price/stack_regression 阅读笔记.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
           },
           {
-            "id": "279fcc3582d3a00b",
-            "type": "leaf",
-            "state": {
-              "type": "ipynb",
-              "state": {
-                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb"
+            "id": "e664fdf8fb576d64",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e09ca25a66216cfd",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "machine learning/house price/stack_regression 阅读笔记.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -85,13 +100,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "284957970ca8c19b",
@@ -189,7 +202,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "f26c111bab1b1243",
+  "active": "e09ca25a66216cfd",
   "lastOpenFiles": [
     "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
     "machine learning/house price/stack_regression 阅读笔记.md",
