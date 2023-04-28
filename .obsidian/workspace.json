@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "machine learning/house price/stack_regression.md",
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "machine learning/house price/stack_regression.md"
+                "file": "machine learning/house price/stack_regression 阅读笔记.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "machine learning/house price/stack_regression.md",
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "machine learning/house price/stack_regression.md",
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -180,8 +180,8 @@
   },
   "active": "9366bf4d6cd1c126",
   "lastOpenFiles": [
+    "machine learning/house price/stack_regression 阅读笔记.md",
     "machine learning/house price/comprehensive-data-exploration-with-python.ipynb",
-    "machine learning/house price/stack_regression.md",
     "2023-04-28.md",
     "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
     "machine learning/house price/document/stacked-regress (auto-Z) - JupyterLab.pdf",
