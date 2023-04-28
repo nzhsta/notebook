@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "21726199f1de2c8d",
-        "type": "split",
+        "id": "a17468050f793757",
+        "type": "tabs",
         "children": [
           {
-            "id": "a17468050f793757",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f26c111bab1b1243",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "machine learning/house price/stack_regression 阅读笔记.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "f26c111bab1b1243",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "e664fdf8fb576d64",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e09ca25a66216cfd",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "machine learning/house price/stack_regression 阅读笔记.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +177,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "e09ca25a66216cfd",
+  "active": "f26c111bab1b1243",
   "lastOpenFiles": [
     "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
     "machine learning/house price/stack_regression 阅读笔记.md",
