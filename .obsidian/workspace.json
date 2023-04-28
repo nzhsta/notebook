@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "378241f84d2786e8",
+        "id": "8fd6fbacc44ac7db",
         "type": "tabs",
         "children": [
           {
-            "id": "fbbd098fe956e664",
+            "id": "928ede264467daa5",
             "type": "leaf",
             "state": {
-              "type": "ipynb",
-              "state": {
-                "file": "machine learning/house price/comprehensive-data-exploration-with-python.ipynb"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -35,9 +33,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "machine learning/house price/comprehensive-data-exploration-with-python.ipynb"
-              }
+              "state": {}
             }
           },
           {
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "machine learning/house price/comprehensive-data-exploration-with-python.ipynb",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "machine learning/house price/comprehensive-data-exploration-with-python.ipynb",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,8 +169,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "fbbd098fe956e664",
+  "active": "3ae657058e4316a3",
   "lastOpenFiles": [
+    "machine learning/house price/未命名.md",
+    "machine learning/house price/comprehensive-data-exploration-with-python.ipynb",
+    "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
     "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
     "machine learning/house price/data/train.csv",
@@ -187,9 +184,7 @@
     "machine learning/house price/data/house-prices-advanced-regression-techniques/data_description.txt",
     "machine learning/house price/data/house-prices-advanced-regression-techniques/test.csv",
     "machine learning/house price/data/house-prices-advanced-regression-techniques/sample_submission.csv",
-    "machine learning/house price/data/house-prices-advanced-regression-techniques",
     "learning notebook/eat_pyspark_in_10_days-master/2-3,2小时入门SparkSQL编程.md",
-    "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "learning notebook/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
     "learning notebook/test/未命名.md",
     "learning notebook/eat_pyspark_in_10_days-master/data/算法美食屋二维码.png",
@@ -221,7 +216,6 @@
     "learning/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
     "learning/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "learning/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
-    "learning/eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md",
     "未命名.canvas"
   ]
 }

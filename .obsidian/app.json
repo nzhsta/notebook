@@ -3,5 +3,6 @@
   "strictLineBreaks": true,
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "./images"
+  "attachmentFolderPath": "./images",
+  "promptDelete": false
 }
