@@ -1,9 +1,10 @@
 {
   "accentColor": "#7324a8",
-  "cssTheme": "Minimal",
+  "cssTheme": "Blue Topaz",
   "textFontFamily": "LXGW Bright",
-  "theme": "system",
+  "theme": "obsidian",
   "interfaceFontFamily": "霞鹜文楷",
   "monospaceFontFamily": "Consolas",
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "translucency": false
 }
