@@ -4,59 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "5cb7c6b7902fe839",
-        "type": "split",
+        "id": "59542163a995cb29",
+        "type": "tabs",
         "children": [
           {
-            "id": "59542163a995cb29",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "67523c38ced02d95",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "machine learning/house price/stack_regression 阅读笔记.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "3f60a0ed9fe1a241",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "67523c38ced02d95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
           },
           {
-            "id": "bcda3b015388b91d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8b3575f5d3ec6fd5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "machine learning/house price/stack_regression 阅读笔记.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
+            "id": "3f60a0ed9fe1a241",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,8 +87,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,7 +166,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -212,7 +186,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b25ae8cf0b5e3b9f",
+  "active": "67523c38ced02d95",
   "lastOpenFiles": [
     "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "machine learning/house price/stack_regression 阅读笔记.md",
