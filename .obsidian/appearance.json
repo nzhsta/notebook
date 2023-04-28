@@ -1,9 +1,9 @@
 {
   "accentColor": "#7324a8",
   "cssTheme": "Minimal",
-  "textFontFamily": "LXGW Bright",
+  "textFontFamily": "Songti TC",
   "theme": "system",
   "interfaceFontFamily": "霞鹜文楷",
   "monospaceFontFamily": "Consolas",
-  "baseFontSize": 15
+  "baseFontSize": 16
 }
