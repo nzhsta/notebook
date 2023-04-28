@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d602e5bea4713453",
+        "id": "fd773b357bfe9551",
         "type": "tabs",
         "children": [
           {
-            "id": "a01e401729a1a567",
+            "id": "9366bf4d6cd1c126",
             "type": "leaf",
             "state": {
-              "type": "ipynb",
+              "type": "markdown",
               "state": {
-                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb"
+                "file": "machine learning/house price/stack_regression.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -36,7 +38,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb"
+                "file": "machine learning/house price/stack_regression.md"
               }
             }
           },
@@ -94,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
+                "file": "machine learning/house price/stack_regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
+                "file": "machine learning/house price/stack_regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -176,22 +178,22 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "a01e401729a1a567",
+  "active": "9366bf4d6cd1c126",
   "lastOpenFiles": [
+    "machine learning/house price/comprehensive-data-exploration-with-python.ipynb",
+    "machine learning/house price/stack_regression.md",
+    "2023-04-28.md",
+    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
     "machine learning/house price/document/stacked-regress (auto-Z) - JupyterLab.pdf",
     "machine learning/house price/document",
     "machine learning/house price/documents",
     "machine learning/house price/未命名文件夹",
-    "machine learning/house price/comprehensive-data-exploration-with-python.ipynb",
     "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
-    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
-    "machine learning/house price/未命名.md",
     "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
     "machine learning/house price/data/train.csv",
     "machine learning/house price/data/test.csv",
     "machine learning/house price/data/sample_submission.csv",
     "machine learning/house price/data/data_description.txt",
-    "machine learning/house price/data/house-prices-advanced-regression-techniques/train.csv",
     "learning notebook/eat_pyspark_in_10_days-master/2-3,2小时入门SparkSQL编程.md",
     "learning notebook/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
     "learning notebook/test/未命名.md",
@@ -223,7 +225,6 @@
     "learning/eat_pyspark_in_10_days-master/2-3,2小时入门SparkSQL编程.md",
     "learning/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
     "learning/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
-    "learning/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
     "未命名.canvas"
   ]
 }
