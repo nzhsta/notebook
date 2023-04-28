@@ -2,9 +2,9 @@
   "accentColor": "#7324a8",
   "cssTheme": "Blue Topaz",
   "textFontFamily": "LXGW Bright",
-  "theme": "moonstone",
+  "theme": "system",
   "interfaceFontFamily": "霞鹜文楷",
   "monospaceFontFamily": "Consolas",
-  "baseFontSize": 16,
+  "baseFontSize": 17,
   "translucency": false
 }
