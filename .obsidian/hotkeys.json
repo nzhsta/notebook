@@ -1,1 +1,10 @@
-{}
+{
+  "Enhanced-editing:this-twoSpace": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ]
+}
