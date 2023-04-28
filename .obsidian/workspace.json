@@ -172,9 +172,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian42-brat:BRAT": false,
-      "templater-obsidian:Templater": false,
-      "remotely-save:Remotely Save": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "f26c111bab1b1243",
