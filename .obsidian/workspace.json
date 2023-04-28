@@ -13,7 +13,7 @@
             "state": {
               "type": "ipynb",
               "state": {
-                "file": "machine learning/house price/comprehensive-data-exploration-with-python.ipynb"
+                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb"
               }
             }
           }
@@ -36,7 +36,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "machine learning/house price/comprehensive-data-exploration-with-python.ipynb"
+                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb"
               }
             }
           },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "machine learning/house price/comprehensive-data-exploration-with-python.ipynb",
+                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "machine learning/house price/comprehensive-data-exploration-with-python.ipynb",
+                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,10 +178,10 @@
   },
   "active": "a01e401729a1a567",
   "lastOpenFiles": [
+    "machine learning/house price/comprehensive-data-exploration-with-python.ipynb",
     "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
     "machine learning/house price/未命名.md",
-    "machine learning/house price/comprehensive-data-exploration-with-python.ipynb",
     "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
     "machine learning/house price/data/train.csv",
     "machine learning/house price/data/test.csv",
