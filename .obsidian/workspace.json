@@ -11,8 +11,10 @@
             "id": "928ede264467daa5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "ipynb",
+              "state": {
+                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb"
+              }
             }
           }
         ]
@@ -33,7 +35,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb"
+              }
             }
           },
           {
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +175,7 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "3ae657058e4316a3",
+  "active": "928ede264467daa5",
   "lastOpenFiles": [
     "machine learning/house price/未命名.md",
     "machine learning/house price/comprehensive-data-exploration-with-python.ipynb",
