@@ -1,15 +1,15 @@
 [
-  "calendar",
+  "Enhanced-editing",
   "table-editor-obsidian",
+  "calendar",
   "oz-clear-unused-images",
   "dataview",
   "obsidian-excalidraw-plugin",
+  "obsidian-excel-to-markdown-table",
+  "obsidian-jupyter",
   "obsidian-mind-map",
+  "obsidian-git",
   "obsidian-pandoc",
   "obsidian-rollover-daily-todos",
-  "templater-obsidian",
-  "obsidian-excel-to-markdown-table",
-  "obsidian-git",
-  "obsidian-jupyter",
-  "Enhanced-editing"
+  "templater-obsidian"
 ]

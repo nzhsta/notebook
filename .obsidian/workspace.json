@@ -143,14 +143,6 @@
             }
           },
           {
-            "id": "7f7dfc0810f47c54",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "1e3cdb275d4bcc8b",
             "type": "leaf",
             "state": {
@@ -163,6 +155,14 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ad791dd8ab70742",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
@@ -187,7 +187,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "67523c38ced02d95",
+  "active": "3ad791dd8ab70742",
   "lastOpenFiles": [
     "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "machine learning/house price/stack_regression 阅读笔记.md",
