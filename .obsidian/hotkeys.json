@@ -6,5 +6,51 @@
       ],
       "key": "Tab"
     }
-  ]
+  ],
+  "Enhanced-editing:text-Color1": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "1"
+    }
+  ],
+  "Enhanced-editing:text-Color2": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "2"
+    }
+  ],
+  "Enhanced-editing:text-Color3": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "3"
+    }
+  ],
+  "Enhanced-editing:text-Color4": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "4"
+    }
+  ],
+  "Enhanced-editing:text-Color5": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "5"
+    }
+  ],
+  "Enhanced-editing:biaoti1-text": [],
+  "Enhanced-editing:biaoti2-text": [],
+  "Enhanced-editing:biaoti3-text": [],
+  "Enhanced-editing:biaoti4-text": [],
+  "Enhanced-editing:biaoti5-text": [],
+  "Enhanced-editing:biaoti6-text": []
 }
