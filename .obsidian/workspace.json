@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "378241f84d2786e8",
+        "id": "5ec10e6da1cbd35d",
         "type": "tabs",
         "children": [
           {
-            "id": "fbbd098fe956e664",
+            "id": "d2c6bcc17a31b266",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -101,6 +101,14 @@
             }
           },
           {
+            "id": "7f7dfc0810f47c54",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
             "id": "e545383b6f62e680",
             "type": "leaf",
             "state": {
@@ -123,27 +131,27 @@
             }
           },
           {
-            "id": "7f7dfc0810f47c54",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "1e3cdb275d4bcc8b",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "b743c7bead22d807",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 373.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,20 +169,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8e9f71ad8cc295fc",
+  "active": "d2c6bcc17a31b266",
   "lastOpenFiles": [
-    "jupyter_notebook/未命名.ipynb",
-    "jupyter_notebook",
+    "conflict-files-obsidian-git.md",
+    "machine learning/house price/stack_regression 阅读笔记.md",
+    "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
+    "learning notebook/eat_pyspark_in_10_days-master",
+    "learning notebook",
+    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
+    "machine learning/house price/document/stacked-regress (auto-Z) - JupyterLab.pdf",
+    "machine learning/house price/data/train.csv",
+    "machine learning/house price/data/sample_submission.csv",
+    "machine learning/house price/data/test.csv",
+    "machine learning/house price/data/data_description.txt",
+    "machine learning/house price/data",
+    "machine learning/house price/document",
+    "images/Pasted image 20230421134649.png.md",
     "learning notebook/test/未命名.md",
-    "learning notebook/test",
-    "learning notebook/eat_pyspark_in_10_days-master/未命名",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/metadata/_SUCCESS",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/metadata/part-00000",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/data/_SUCCESS",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/2_LogisticRegression_8bb5fd78458f/data/part-00000-d1fdc1cb-3bf4-429c-ab2f-fef48f9cd96c-c000.snappy.parquet",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/1_HashingTF_ea73417aacc8/metadata/_SUCCESS",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/1_HashingTF_ea73417aacc8/metadata/part-00000",
-    "learning notebook/eat_pyspark_in_10_days-master/data/mymodel.model/stages/0_Tokenizer_ae02cbcf4008/metadata/_SUCCESS",
     "learning notebook/eat_pyspark_in_10_days-master/data/算法美食屋二维码.png",
     "learning notebook/eat_pyspark_in_10_days-master/data/算法美食屋二维码.jpg",
     "learning notebook/eat_pyspark_in_10_days-master/data/宽依赖窄依赖.png",
@@ -193,7 +204,6 @@
     "learning notebook/eat_pyspark_in_10_days-master/3-2,RDD和SparkSQL综合应用.md",
     "learning notebook/eat_pyspark_in_10_days-master/3-1,Spark性能调优方法.md",
     "learning notebook/eat_pyspark_in_10_days-master/2-3,2小时入门SparkSQL编程.md",
-    "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
     "learning notebook/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
     "learning notebook/eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md",
     "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
@@ -207,8 +217,6 @@
     "learning/eat_pyspark_in_10_days-master/2-3,2小时入门SparkSQL编程.md",
     "learning/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
     "learning/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
-    "learning/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
-    "learning/eat_pyspark_in_10_days-master/1-2,1小时看懂Spark的基本原理.md",
     "未命名.canvas"
   ]
 }
