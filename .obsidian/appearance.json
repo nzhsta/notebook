@@ -1,5 +1,7 @@
 {
   "accentColor": "",
   "textFontFamily": "LXGW Bright",
-  "interfaceFontFamily": "LXGW Bright"
+  "interfaceFontFamily": "LXGW Bright",
+  "cssTheme": "Things",
+  "theme": "moonstone"
 }
