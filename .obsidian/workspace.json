@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c5cc089882ed6f20",
+        "id": "daf683b5c9918f16",
         "type": "tabs",
         "children": [
           {
-            "id": "f1da3522a4519285",
+            "id": "a2500ba965dc2ff7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -169,8 +169,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f1da3522a4519285",
+  "active": "a2500ba965dc2ff7",
   "lastOpenFiles": [
+    "新建文本文档.txt",
+    "新建文件夹",
     "conflict-files-obsidian-git.md",
     "machine learning/house price/stack_regression 阅读笔记.md",
     "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
@@ -183,7 +185,6 @@
     "machine learning/house price/data/test.csv",
     "machine learning/house price/data/data_description.txt",
     "machine learning/house price/data",
-    "machine learning/house price/document",
     "images/Pasted image 20230421134649.png.md",
     "learning notebook/test/未命名.md",
     "learning notebook/eat_pyspark_in_10_days-master/data/算法美食屋二维码.png",
@@ -216,7 +217,6 @@
     "learning/eat_pyspark_in_10_days-master/2-4,7道SparkSQL编程练习题.md",
     "learning/eat_pyspark_in_10_days-master/2-3,2小时入门SparkSQL编程.md",
     "learning/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
-    "learning/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "未命名.canvas"
   ]
 }
