@@ -1,11 +1,10 @@
 
-‌‌‌
-本篇笔记主要是对 house price 比赛的优秀案例进行总结的笔记
-- [x] 阅读特征工程笔记[stack_regression 阅读笔记](stack_regression%20阅读笔记.md)
-- [x] 阅读[Regularized Linear Models](https://www.kaggle.com/apapiu/regularized-linear-models)
+‌‌‌‌　　本篇笔记主要是对 house price 比赛的优秀案例进行总结的笔记
+‌‌‌‌　　- [x] 阅读特征工程笔记[stack_regression 阅读笔记](stack_regression%20阅读笔记.md)
+‌‌‌‌　　- [x] 阅读[Regularized Linear Models](https://www.kaggle.com/apapiu/regularized-linear-models)
 
 
-以上两篇文章都会对完成这次**回归任务**有很大的帮助
+	以上两篇文章都会对完成这次**回归任务**有很大的帮助
 
 
 
@@ -18,9 +17,13 @@
 
 ## 2.1 异常值
 
+‌‌‌‌　　对于目标值和特征画出散点图，可以比较清晰的看出是否具有比较离谱的异常值，如下图所示
+
+# 3. test
+	
 
 
 
 
 
-
+‌‌‌‌　　
