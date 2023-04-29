@@ -33,9 +33,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-04-13 21.56.40.excalidraw.md"
-              }
+              "state": {}
             }
           },
           {
@@ -92,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-04-13 21.56.40.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-04-13 21.56.40.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,8 +167,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1e3cdb275d4bcc8b",
+  "active": "674f602061aa7e3e",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-04-13 21.56.40.excalidraw.md",
     "Excalidraw/Drawing 2023-04-29 01.44.34.excalidraw.md",
     "machine learning/house price/stack_regression 阅读笔记.md",
     "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
@@ -218,7 +215,6 @@
     "learning/eat_pyspark_in_10_days-master/2-4,7道SparkSQL编程练习题.md",
     "learning/eat_pyspark_in_10_days-master/2-3,2小时入门SparkSQL编程.md",
     "learning/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
-    "learning/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
     "未命名.canvas"
   ]
 }
