@@ -2,6 +2,8 @@
   "accentColor": "",
   "textFontFamily": "LXGW Bright",
   "interfaceFontFamily": "LXGW Bright",
-  "cssTheme": "Things",
-  "theme": "moonstone"
+  "cssTheme": "Blue Topaz",
+  "theme": "obsidian",
+  "monospaceFontFamily": "Consolas",
+  "baseFontSize": 15
 }
