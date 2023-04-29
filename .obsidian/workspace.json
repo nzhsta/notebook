@@ -11,18 +11,6 @@
             "id": "1662ed469d3fd1e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "machine learning/house price/stack_regression 阅读笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "543b96a60be123be",
-            "type": "leaf",
-            "state": {
               "type": "ipynb",
               "state": {
                 "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb"
@@ -48,7 +36,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "machine learning/house price/stack_regression 阅读笔记.md"
+                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb"
               }
             }
           },
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "machine learning/house price/stack_regression 阅读笔记.md",
+                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "machine learning/house price/stack_regression 阅读笔记.md",
+                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,8 +175,8 @@
   },
   "active": "1662ed469d3fd1e1",
   "lastOpenFiles": [
-    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
     "machine learning/house price/stack_regression 阅读笔记.md",
+    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
     "machine learning/house price/document/stacked-regress (auto-Z) - JupyterLab.pdf",
     "新建文本文档.txt",
     "新建文件夹",
