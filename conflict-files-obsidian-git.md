@@ -3,16 +3,12 @@ Please resolve them and commit them using the commands `Obsidian Git: Commit all
 (This file will automatically be deleted before commit)
 [[#Additional Instructions]] available below file list
 
+- Not a file: .obsidian/appearance.json
 - Not a file: .obsidian/workspace.json
-- Not a file: learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md
 
 # Additional Instructions
 I strongly recommend to use "Source mode" for viewing the conflicted files. For simple conflicts, in each file listed above replace every occurrence of the following text blocks with the desired text.
 
 ```diff
-<<<<<<< HEAD
-    File changes in local repository
-=======
-    File changes in remote repository
->>>>>>> origin/main
+File changes in remote repository
 ```

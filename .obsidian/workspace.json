@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5ec10e6da1cbd35d",
+        "id": "c5cc089882ed6f20",
         "type": "tabs",
         "children": [
           {
-            "id": "d2c6bcc17a31b266",
+            "id": "f1da3522a4519285",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -169,7 +169,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d2c6bcc17a31b266",
+  "active": "f1da3522a4519285",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "machine learning/house price/stack_regression 阅读笔记.md",
