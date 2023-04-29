@@ -4,15 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "fbcd9a17ec0684b0",
+        "id": "0df33b8f2720199e",
         "type": "tabs",
         "children": [
           {
-            "id": "2b9edf750e1413d1",
+            "id": "1662ed469d3fd1e1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "543b96a60be123be",
+            "type": "leaf",
+            "state": {
+              "type": "ipynb",
+              "state": {
+                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb"
+              }
             }
           }
         ]
@@ -34,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb"
+                "file": "machine learning/house price/stack_regression 阅读笔记.md"
               }
             }
           },
@@ -92,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +165,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -171,17 +185,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8e9f71ad8cc295fc",
+  "active": "1662ed469d3fd1e1",
   "lastOpenFiles": [
+    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
     "machine learning/house price/stack_regression 阅读笔记.md",
+    "machine learning/house price/document/stacked-regress (auto-Z) - JupyterLab.pdf",
     "新建文本文档.txt",
     "新建文件夹",
     "conflict-files-obsidian-git.md",
     "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
     "learning notebook/eat_pyspark_in_10_days-master",
     "learning notebook",
-    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
-    "machine learning/house price/document/stacked-regress (auto-Z) - JupyterLab.pdf",
     "machine learning/house price/data/train.csv",
     "machine learning/house price/data/sample_submission.csv",
     "machine learning/house price/data/test.csv",
