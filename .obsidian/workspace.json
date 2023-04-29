@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "55a4aceed2336fed",
+        "id": "d693b00418ee3aab",
         "type": "tabs",
         "children": [
           {
-            "id": "607343a125dfac18",
+            "id": "12110f2e38af7d1c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -33,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "machine learning/house price/stack_regression 阅读笔记.md"
+              }
             }
           },
           {
@@ -90,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,17 +172,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "obsidian42-brat:BRAT": false,
-      "remotely-save:Remotely Save": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "607343a125dfac18",
+  "active": "12110f2e38af7d1c",
   "lastOpenFiles": [
+    "machine learning/house price/stack_regression 阅读笔记.md",
     "新建文本文档.txt",
     "新建文件夹",
     "conflict-files-obsidian-git.md",
-    "machine learning/house price/stack_regression 阅读笔记.md",
     "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
     "learning notebook/eat_pyspark_in_10_days-master",
     "learning notebook",
@@ -184,7 +190,6 @@
     "machine learning/house price/data/sample_submission.csv",
     "machine learning/house price/data/test.csv",
     "machine learning/house price/data/data_description.txt",
-    "machine learning/house price/data",
     "images/Pasted image 20230421134649.png.md",
     "learning notebook/test/未命名.md",
     "learning notebook/eat_pyspark_in_10_days-master/data/算法美食屋二维码.png",
