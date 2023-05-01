@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "09b402111c469c8a",
+        "id": "f36c5e576c51c01b",
         "type": "tabs",
         "children": [
           {
-            "id": "674f602061aa7e3e",
+            "id": "6bd4b68c7e302dd9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -33,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "machine learning/house price/stack_regression 阅读笔记.md"
+              }
             }
           },
           {
@@ -90,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -167,15 +175,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "674f602061aa7e3e",
+  "active": "8e9f71ad8cc295fc",
   "lastOpenFiles": [
+    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
+    "conflict-files-obsidian-git.md",
     "jupyter_notebook/未命名.ipynb",
     "jupyter_notebook",
     "Excalidraw/Drawing 2023-04-13 21.56.40.excalidraw.md",
     "Excalidraw/Drawing 2023-04-29 01.44.34.excalidraw.md",
     "machine learning/house price/stack_regression 阅读笔记.md",
     "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
-    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
     "machine learning/house price/document/stacked-regress (auto-Z) - JupyterLab.pdf",
     "machine learning/house price/comprehensive-data-exploration-with-python.ipynb",
     "2023-04-28.md",
@@ -185,7 +194,6 @@
     "learning notebook/eat_pyspark_in_10_days-master/2-2,7道RDD编程练习题.md",
     "machine learning/house price/data/train.csv",
     "machine learning/house price/data/test.csv",
-    "machine learning/house price/data/sample_submission.csv",
     "learning notebook/eat_pyspark_in_10_days-master/2-3,2小时入门SparkSQL编程.md",
     "learning notebook/eat_pyspark_in_10_days-master/2-1,2小时入门Spark之RDD编程.md",
     "learning notebook/test/未命名.md",
@@ -214,7 +222,6 @@
     "learning/eat_pyspark_in_10_days-master/3-2,RDD和SparkSQL综合应用.md",
     "learning/eat_pyspark_in_10_days-master/3-1,Spark性能调优方法.md",
     "learning/eat_pyspark_in_10_days-master/2-4,7道SparkSQL编程练习题.md",
-    "learning/eat_pyspark_in_10_days-master/2-3,2小时入门SparkSQL编程.md",
     "未命名.canvas"
   ]
 }

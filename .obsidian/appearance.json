@@ -1,18 +1,6 @@
 {
-  "accentColor": "#7324a8",
-<<<<<<< HEAD
-  "cssTheme": "Things",
-=======
-  "cssTheme": "Obsidian Nord",
->>>>>>> 27a0f38ac021f048bb5f8a880eec519fc240aa10
+  "accentColor": "",
   "textFontFamily": "LXGW Bright",
-  "theme": "moonstone",
-  "interfaceFontFamily": "霞鹜文楷",
-  "monospaceFontFamily": "Consolas",
-<<<<<<< HEAD
-  "baseFontSize": 16,
-=======
-  "baseFontSize": 11,
->>>>>>> 27a0f38ac021f048bb5f8a880eec519fc240aa10
-  "translucency": false
+  "interfaceFontFamily": "LXGW Bright",
+  "cssTheme": "Minimal"
 }
