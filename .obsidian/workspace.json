@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "fe28cd90485ccc28",
+        "id": "275df0b0278e3403",
         "type": "tabs",
         "children": [
           {
-            "id": "fb8e5532b82cd756",
+            "id": "5d334ecddd78fe81",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -33,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "machine learning/house price/stack_regression 阅读笔记.md"
+              }
             }
           },
           {
@@ -90,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "machine learning/house price/stack_regression 阅读笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,11 +174,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fb8e5532b82cd756",
+  "active": "5d334ecddd78fe81",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "machine learning/house price/Drawing 2023-05-02 00.05.27.excalidraw.md",
     "machine learning/house price/stack_regression 阅读笔记.md",
     "machine learning/house price/未命名文件夹/stacked-regress (auto-Z) - JupyterLab.pdf",
+    "conflict-files-obsidian-git.md",
     "machine learning/house price/未命名文件夹",
     "machine learning/house price/新建 Typora.md",
     "machine learning/house price/images/Pasted image 20230430002919.png",
