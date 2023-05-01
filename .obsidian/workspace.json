@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6df091122cf5b997",
+        "id": "8c7faf2dffb67b67",
         "type": "tabs",
         "children": [
           {
-            "id": "d026012e068b554d",
+            "id": "5b131f1ce732c606",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,15 +166,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3ae657058e4316a3",
+  "active": "5b131f1ce732c606",
   "lastOpenFiles": [
+    "machine learning/house price/Drawing 2023-05-02 00.05.27.excalidraw.md",
     "Excalidraw/Drawing 2023-04-13 21.56.40.excalidraw.md",
     "machine learning/house price/stack_regression 阅读笔记.md",
     "Excalidraw/fonts/清松手写体1-Light.ttf",
     "Excalidraw/fonts/1629193404641970.ttf",
     "Excalidraw/fonts",
     "Excalidraw",
-    "machine learning/house price/Drawing 2023-05-02 00.05.27.excalidraw.md",
     "machine learning/house price/未命名文件夹/stacked-regress (auto-Z) - JupyterLab.pdf",
     "conflict-files-obsidian-git.md",
     "machine learning/house price/未命名文件夹",
