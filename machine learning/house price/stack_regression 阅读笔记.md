@@ -94,9 +94,9 @@ sns.heatmap(corrmat, vmax=0.9, square=True)
 注意这里不区分训练数据、测试数据
 
 ### 3.3 其他特征工程
-1. 将某些数值变量转变成类别变量
+1. **将某些数值变量转变成类别变量**
    ``all_data['MSSubClass'].apply(str)
-2. 对一些可能包含信息的分类变量进行标签编码，以反映它们的顺序集合
+2. **对一些可能包含信息的分类变量进行标签编码，以反映它们的顺序集合**
    ```python
 from sklearn.preprocessing import LabelEncoder
 cols = ('FireplaceQu', 'BsmtQual', 'BsmtCond', 'GarageQual', 'GarageCond', 
@@ -114,3 +114,5 @@ for c in cols:
 print('Shape all_data: {}'.format(all_data.shape))
 ```
 3. **增加特征**
+   将某些特征组合（加减乘除）可以得到一个新的特征
+   
