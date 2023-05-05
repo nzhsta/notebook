@@ -1,7 +1,7 @@
 
 本篇笔记主要是对 house price 比赛的优秀案例进行总结的笔记
-- [x] 阅读特征工程笔记[stack_regression 阅读笔记](stack_regression%20阅读笔记.md)
-- [x] 阅读[Regularized Linear Models](https://www.kaggle.com/apapiu/regularized-linear-models)
+- [ ] 阅读特征工程笔记[stack_regression 阅读笔记](stack_regression%20阅读笔记.md)
+- [ ] 阅读[Regularized Linear Models](https://www.kaggle.com/apapiu/regularized-linear-models)
 
 以上两篇文章都会对完成这次**回归任务**有很大的帮助
 
@@ -31,16 +31,18 @@
 1. **偏度、峰度**
 	利用``from scipy import stats``方法可以得到某个变量的统计分布情况
 	``(mu, sigma) = norm.fit(train['SalePrice'])
-2. **分布图**
 	利用``sns.displot(var)``方法可以得到某个变量var的**正态分布直方图以及核密度估计**
 	```python
 	sns.distplot(train['SalePrice'] , fit=norm);
 	# fit=norm 可以得到一条正态分布曲线
 ```
-3. **QQ图**（检验样本数据概率分布，默认检验变量的正态分布）
+	![](images/Pasted%20image%2020230505113642.png)
+2. **QQ图**（检验样本数据概率分布，默认检验变量的正态分布）
 	q-q 图是通过比较数据和正态分布的**分位数**是否相等来判断数据是不是符合正态分布
 	```python
 	stats.probplot(train['SalePrice'], plot=plt)
 ```
-	![](images/Pasted%20image%2020230505113457.png)
-			1. 可以
+	![](images/Pasted%20image%2020230505113659.png)
+
+	可以由上面两个图看到，目标变量的分布是属于**右偏态**的，但是<u>一般的线性模型都要求变量符合正态分布</u>，所以我们需要使得目标变量更加符合**正态分布**。
+	
