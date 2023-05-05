@@ -96,6 +96,7 @@ sns.heatmap(corrmat, vmax=0.9, square=True)
 ### 3.3 其他特征工程
 1. **将某些数值变量转变成类别变量**
    ``all_data['MSSubClass'].apply(str)
+   
 2. **对一些可能包含信息的分类变量进行标签编码，以反映它们的顺序集合**
    ```python
 from sklearn.preprocessing import LabelEncoder
@@ -104,7 +105,7 @@ cols = ('FireplaceQu', 'BsmtQual', 'BsmtCond', 'GarageQual', 'GarageCond',
         'BsmtFinType2', 'Functional', 'Fence', 'BsmtExposure', 'GarageFinish', 'LandSlope',
         'LotShape', 'PavedDrive', 'Street', 'Alley', 'CentralAir', 'MSSubClass', 'OverallCond', 
         'YrSold', 'MoSold')
-# process columns, apply LabelEncoder to categorical features
+ # process columns, apply LabelEncoder to categorical features
 for c in cols:
     lbl = LabelEncoder() 
     lbl.fit(list(all_data[c].values)) 
@@ -115,4 +116,8 @@ print('Shape all_data: {}'.format(all_data.shape))
 ```
 3. **增加特征**
    将某些特征组合（加减乘除）可以得到一个新的特征
+   
+4. **解决数据倾斜**
+   我们用**scipy函数boxcox1p**来计算Box-Cox转换，目标是找到一个简单的转换方式使数据规范化。
+   
    
