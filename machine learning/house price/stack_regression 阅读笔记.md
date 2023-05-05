@@ -7,16 +7,16 @@
 
 
 
-# 1. 了解数据
+## 1. 了解数据
 
 1. 首先**了解训**练集和测**试集**的**样本数和特征数
 2. 去除显而易见的无用**特**征('ID')
 
 
 
-# 2. 数据处理
+## 2. 数据处理
 
-## 2.1 异常值
+### 2.1 异常值
 
 对于目标值和特征画出散点图，可以比较清晰的看出是否具有比较离谱的异常值，如下图所示：
 ![](images/Pasted%20image%2020230503210448.png)
@@ -25,7 +25,7 @@
 
 - <u>可能还有其他离群点在训练数据中。但是，如果在测试数据中也有离群点，则如果将它们全部删除，则可能会对我们的模型产生不良影响。因此，我们不会删除所有的离群点，而是在建模过程中，会使一些模型对它们具有鲁棒性。</u>
 
-## 2.2 目标变量
+### 2.2 目标变量
 
 针对目标变量做一些分析
 1. **偏度、峰度**
@@ -46,4 +46,35 @@
 	
 	可以由上面两个图看到，目标变量的分布是属于**右偏态**的，但是<u>一般的线性模型都要求变量符合正态分布</u>，所以我们需要使得目标变量更加符合**正态分布**。
 
-## 2.3 对数变换
+### 2.3 对数变换
+`` np.log1p(train["SalePrice"])``利用numpy进行对数变换
+```python
+sns.distplot(train['SalePrice'] , fit=norm);
+
+# Get the fitted parameters used by the function
+(mu, sigma) = norm.fit(train['SalePrice'])
+print( '\n mu = {:.2f} and sigma = {:.2f}\n'.format(mu, sigma))
+
+#Now plot the distribution
+plt.legend(['Normal dist. ($\mu=$ {:.2f} and $\sigma=$ {:.2f} )'.format(mu, sigma)],
+            loc='best')
+plt.ylabel('Frequency')
+plt.title('SalePrice distribution')
+
+#Get also the QQ-plot
+fig = plt.figure()
+res = stats.probplot(train['SalePrice'], plot=plt)
+plt.show()
+```
+![](images/Pasted%20image%2020230505171504.png)
+可以看到**训练数据的目标变量**经过对数变换之后，更加符合正态分布。
+
+## 3. 特征工程
+将训练数据和测试数据都concat在一起,但是去除目标变量。
+```python
+ntrain = train.shape[0]
+ntest = test.shape[0]
+y_train = train.SalePrice.values
+all_data = pd.concat((train, test)).reset_index(drop=True)
+all_data.drop(['SalePrice'], axis=1, inplace=True)
+```
