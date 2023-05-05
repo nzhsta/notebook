@@ -32,9 +32,15 @@
 	利用``from scipy import stats``方法可以得到某个变量的统计分布情况
 	``(mu, sigma) = norm.fit(train['SalePrice'])
 2. **分布图**
-	利用``sns.displot(var)``方法可以得到某个变量var的**正态分布图**
+	利用``sns.displot(var)``方法可以得到某个变量var的**正态分布直方图以及核密度估计**
 	```python
 	sns.distplot(train['SalePrice'] , fit=norm);
 	# fit=norm 可以得到一条正态分布曲线
 ```
-	
+3. **QQ图**（检验样本数据概率分布，默认检验变量的正态分布）
+	q-q 图是通过比较数据和正态分布的**分位数**是否相等来判断数据是不是符合正态分布
+	```python
+	stats.probplot(train['SalePrice'], plot=plt)
+```
+	![](images/Pasted%20image%2020230505113457.png)
+			1. 可以
