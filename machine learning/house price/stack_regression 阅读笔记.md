@@ -82,11 +82,15 @@ all_data.drop(['SalePrice'], axis=1, inplace=True)
 统计出每个变量的缺失值比例，并画图
 ![](images/Pasted%20image%2020230505172429.png)
 ### 3.2 特征相似
-通过sns的热力图，就可以看到变量之间的相互关系
+通过sns的热力图，就可以看到变量之间的相互关系（corr相似度）
 ```python
 corrmat = train.corr()
 plt.subplots(figsize=(12,9))
 sns.heatmap(corrmat, vmax=0.9, square=True)
 ```
 ![](images/Pasted%20image%2020230505172914.png)
-### 3.3 归因缺失值
+### 3.3 填充缺失值
+通过按顺序处理缺失值的特征来填充它们（根据每个特征的特性：均值、定值、中位数、众数、None等）
+
+### 3.3 其他特征工程
+
