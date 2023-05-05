@@ -28,5 +28,13 @@
 ## 2.2 目标变量
 
 针对目标变量做一些分析
-1. 偏度、峰度
-	利用
+1. **偏度、峰度**
+	利用``from scipy import stats``方法可以得到某个变量的统计分布情况
+	``(mu, sigma) = norm.fit(train['SalePrice'])
+2. **分布图**
+	利用``sns.displot(var)``方法可以得到某个变量var的**正态分布图**
+	```python
+	sns.distplot(train['SalePrice'] , fit=norm);
+	# fit=norm 可以得到一条正态分布曲线
+```
+	
