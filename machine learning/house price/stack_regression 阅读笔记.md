@@ -96,4 +96,21 @@ sns.heatmap(corrmat, vmax=0.9, square=True)
 ### 3.3 其他特征工程
 1. 将某些数值变量转变成类别变量
    ``all_data['MSSubClass'].apply(str)
-2. 
+2. 对一些可能包含信息的分类变量进行标签编码，以反映它们的顺序集合
+   ```python
+from sklearn.preprocessing import LabelEncoder
+cols = ('FireplaceQu', 'BsmtQual', 'BsmtCond', 'GarageQual', 'GarageCond', 
+        'ExterQual', 'ExterCond','HeatingQC', 'PoolQC', 'KitchenQual', 'BsmtFinType1', 
+        'BsmtFinType2', 'Functional', 'Fence', 'BsmtExposure', 'GarageFinish', 'LandSlope',
+        'LotShape', 'PavedDrive', 'Street', 'Alley', 'CentralAir', 'MSSubClass', 'OverallCond', 
+        'YrSold', 'MoSold')
+# process columns, apply LabelEncoder to categorical features
+for c in cols:
+    lbl = LabelEncoder() 
+    lbl.fit(list(all_data[c].values)) 
+    all_data[c] = lbl.transform(list(all_data[c].values))
+
+# shape        
+print('Shape all_data: {}'.format(all_data.shape))
+```
+3. **增加特征**
