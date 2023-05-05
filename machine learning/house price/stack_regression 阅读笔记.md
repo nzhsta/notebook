@@ -78,3 +78,15 @@ y_train = train.SalePrice.values
 all_data = pd.concat((train, test)).reset_index(drop=True)
 all_data.drop(['SalePrice'], axis=1, inplace=True)
 ```
+### 3.1缺失值
+统计出每个变量的缺失值比例，并画图
+![](images/Pasted%20image%2020230505172429.png)
+### 3.2 特征相似
+通过sns的热力图，就可以看到变量之间的相互关系
+```python
+corrmat = train.corr()
+plt.subplots(figsize=(12,9))
+sns.heatmap(corrmat, vmax=0.9, square=True)
+```
+![](images/Pasted%20image%2020230505172914.png)
+### 3.3 归因缺失值
