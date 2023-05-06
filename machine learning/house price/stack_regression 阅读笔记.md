@@ -143,7 +143,7 @@ sns.heatmap(corrmat, vmax=0.9, square=True)
 		    #all_data[feat] += 1
 		    all_data[feat] = boxcox1p(all_data[feat], lam)
 	    
-	#all_data[skewed_features] = np.log1p(all_data[skewed_features])
+			#all_data[skewed_features] = np.log1p(all_data[skewed_features])
      
      ```
      
