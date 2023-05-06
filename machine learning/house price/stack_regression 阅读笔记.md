@@ -201,7 +201,7 @@ model_xgb = xgb.XGBRegressor(colsample_bytree=0.4603, gamma=0.0468,
                              reg_alpha=0.4640, reg_lambda=0.8571,
                              subsample=0.5213, silent=1,
                              random_state =7, nthread = -1)
-```
+	```
 
 6. **LightGBM**
    ```python
@@ -211,7 +211,7 @@ model_lgb = lgb.LGBMRegressor(objective='regression',num_leaves=5,
                               bagging_freq = 5, feature_fraction = 0.2319,
                               feature_fraction_seed=9, bagging_seed=9,
                               min_data_in_leaf =6, min_sum_hessian_in_leaf = 11)
-```
+	```
 
 ## 4.4 基础模型的表现
 在交叉验证的策略下查看每个基础模型的表现状况
@@ -221,8 +221,30 @@ print("\nLasso score: {:.4f} ({:.4f})\n".format(score.mean(), score.std()))
 ```
 
 ## 4.5 stacking model
-### 4.5.1 
-平均模型
+### 4.5.1  平均基模型
+```python
+class AveragingModels(BaseEstimator, RegressorMixin, TransformerMixin):
+    def __init__(self, models):
+        self.models = models
+        
+    # we define clones of the original models to fit the data in
+    def fit(self, X, y):
+        self.models_ = [clone(x) for x in self.models]
+        
+        # Train cloned base models
+        for model in self.models_:
+            model.fit(X, y)
 
+        return self
+    
+    #Now we do the predictions for cloned models and average them
+    def predict(self, X):
+        predictions = np.column_stack([
+            model.predict(X) for model in self.models_
+        ])
+        return np.mean(predictions, axis=1)  
+```
+
+每个模型都会被训练到，最终取他们的平均预测结果作为最终的结果输出。
 
 
