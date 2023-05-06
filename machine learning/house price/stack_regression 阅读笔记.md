@@ -104,7 +104,7 @@ sns.heatmap(corrmat, vmax=0.9, square=True)
    将某些特征组合（加减乘除）可以得到一个新的特征
    ```python
    from sklearn.preprocessing import LabelEncoder
-	cols = ('FireplaceQu', 'BsmtQual', 'BsmtCond', 'GarageQual', 'GarageCond', 
+	cols = ('FireplaceQu', 'BsmtQual', 'BsmtCond', 'GarageQual',   'GarageCond', 
 	        'ExterQual', 'ExterCond','HeatingQC', 'PoolQC', 'KitchenQual', 'BsmtFinType1', 
 	        'BsmtFinType2', 'Functional', 'Fence', 'BsmtExposure', 'GarageFinish', 'LandSlope',
 	        'LotShape', 'PavedDrive', 'Street', 'Alley', 'CentralAir', 'MSSubClass', 'OverallCond', 
