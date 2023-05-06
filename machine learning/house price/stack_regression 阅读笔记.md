@@ -221,7 +221,8 @@ print("\nLasso score: {:.4f} ({:.4f})\n".format(score.mean(), score.std()))
 ```
 
 ## 4.5 stacking model
-### 4.5.1 平均模型
+### 4.5.1 
+平均模型
 
 
 
