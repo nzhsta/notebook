@@ -221,7 +221,6 @@ print("\nLasso score: {:.4f} ({:.4f})\n".format(score.mean(), score.std()))
 ```
 
 ### 4.5 stacking model
-```python
-d
 
-```
+1. dad
+
