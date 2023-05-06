@@ -79,7 +79,7 @@ y_train = train.SalePrice.values
 all_data = pd.concat((train, test)).reset_index(drop=True)
 all_data.drop(['SalePrice'], axis=1, inplace=True)
 ```
-### 3.1缺失值
+### 3.1 缺失值
 统计出每个变量的缺失值比例，并画图
 ![](images/Pasted%20image%2020230505172429.png)
 ### 3.2 特征相似
@@ -169,6 +169,55 @@ n_folds = 5
 
 def rmsle_cv(model):
     kf = KFold(n_folds, shuffle=True, random_state=42).get_n_splits(train.values)
-	    rmse= np.sqrt(-cross_val_score(model, train.values, y_train, scoring="neg_mean_squared_error", cv = kf))
+	rmse= np.sqrt(-cross_val_score(model, train.values, y_train, scoring="neg_mean_squared_error", cv = kf))
+	# 注意这里为负的均方误差，所以要取负号使其为正
     return(rmse)
 ```
+### 4.3 基模型
+1. **Lasso 回归**
+   lasso回归对于**异常值**特别敏感，如果希望它更加**健壮**，那么可以在pipeline中使用sklearn的**Robustscaler**方法
+   ``lasso = make_pipeline(RobustScaler(), Lasso(alpha =0.0005, random_state=1))``
+   - 关于[make_pipeline](https://blog.csdn.net/elma_tww/article/details/88427695)
+   - 关于[RobustScaler](https://scikit-learn.org.cn/view/751.html)
+
+2. **弹性网络回归**
+   同样需要对于异常值进行处理
+   ``ENet = make_pipeline(RobustScaler(), ElasticNet(alpha=0.0005, l1_ratio=.9, random_state=3))``
+   
+3. **核-岭回归**(Kernel Ridge Regression)
+   为什么需要引入**kernel**呢？其实，将kernel trick应用到distance-based的方法中是很直接的，<u>因为kernel函数本身就是一个distance-based的函数</u>。可能我们会发现，<font color=#F36208>基于distance的方法，都会有对应的一个kernel版本的扩展</font>。
+   此外，从实际应用来看， 因为数据可能是**非线性**的，<u>单纯地假设真实数据服从线性关系，并用线性模型来回归真实的非线性数据，效果想必不会好</u>。所以，引入kernel还能有一个好处，就是：引入kernel的RR，也就是KRR，能够**处理非线性数据**，即，将数据映射到某一个核空间，使得数据在这个核空间上**线性可分**。
+   ``KRR = KernelRidge(alpha=0.6, kernel='polynomial', degree=2, coef0=2.5)``
+   
+ 4. **Gradient Boosting Regression**
+    [什么是huber损失？](https://zhuanlan.zhihu.com/p/358103958)
+    使用huber损失会使得模型对于异常值更加的健壮
+
+5. **XGBoost**
+   ```python
+model_xgb = xgb.XGBRegressor(colsample_bytree=0.4603, gamma=0.0468, 
+                             learning_rate=0.05, max_depth=3, 
+                             min_child_weight=1.7817, n_estimators=2200,
+                             reg_alpha=0.4640, reg_lambda=0.8571,
+                             subsample=0.5213, silent=1,
+                             random_state =7, nthread = -1)
+```
+
+6. **LightGBM**
+   ```python
+model_lgb = lgb.LGBMRegressor(objective='regression',num_leaves=5,
+                              learning_rate=0.05, n_estimators=720,
+                              max_bin = 55, bagging_fraction = 0.8,
+                              bagging_freq = 5, feature_fraction = 0.2319,
+                              feature_fraction_seed=9, bagging_seed=9,
+                              min_data_in_leaf =6, min_sum_hessian_in_leaf = 11)
+```
+
+### 4.4 基础模型的表现
+在交叉验证的策略下查看每个基础模型的表现状况
+```python
+score = rmsle_cv(lasso)
+print("\nLasso score: {:.4f} ({:.4f})\n".format(score.mean(), score.std()))
+```
+
+### 4.5 stacking model
