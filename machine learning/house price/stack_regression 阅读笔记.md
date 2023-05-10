@@ -4,7 +4,7 @@
 - [x] 阅读特征工程笔记[stack_regression 阅读笔记](stack_regression%20阅读笔记.md)
 - [ ] 阅读[Regularized Linear Models](https://www.kaggle.com/apapiu/regularized-linear-models)
 
-以上两篇文章都会对完成这次**回归任务**有很大的[帮助](sstacked-regressions-top-4-on-leaderboard.ipynb)
+以上两篇文章都会对完成这次**回归任务**有很大的帮助
 
 
 # 1. 了解数据
