@@ -2,5 +2,3 @@
 ```ad-tip
 da
 ```
-
-# memos
