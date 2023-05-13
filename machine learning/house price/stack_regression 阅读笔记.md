@@ -102,43 +102,43 @@ sns.heatmap(corrmat, vmax=0.9, square=True)
    
 3. **增加特征**
    将某些特征组合（加减乘除）可以得到一个新的特征
-   ```python
+   
+	```python
 	from sklearn.preprocessing import LabelEncoder
 	cols = ('FireplaceQu', 'BsmtQual', 'BsmtCond', 'GarageQual',   'GarageCond', 'ExterQual', 'ExterCond','HeatingQC', 'PoolQC', 'KitchenQual', 'BsmtFinType1', 'BsmtFinType2', 'Functional', 'Fence', 'BsmtExposure', 'GarageFinish', 'LandSlope','LotShape', 'PavedDrive', 'Street', 'Alley', 'CentralAir', 'MSSubClass', 'OverallCond', 
-			'YrSold', 'MoSold')
-	 # process columns, apply LabelEncoder to categorical features
-	for c in cols:
-		lbl = LabelEncoder() 
-		lbl.fit(list(all_data[c].values)) ·
+		'YrSold', 'MoSold')
+ # process columns, apply LabelEncoder to categorical features
+for c in cols:
+	lbl = LabelEncoder() 
+	lbl.fit(list(all_data[c].values)) ·
 		all_data[c] = lbl.transform(list(all_data[c].values))
-	
-	# shape        
-	print('Shape all_data: {}'.format(all_data.shape))
-	   
+# shape        
+print('Shape all_data: {}'.format(all_data.shape)) 
    ```
 
 1. **解决数据倾斜**
    我们用**scipy函数boxcox1p**来计算Box-Cox转换，目标是找到一个简单的转换方式使数据规范化。
    - 首先得到哪些变量具有偏度
      ```python
-	 numeric_feats = all_data.dtypes[all_data.dtypes != "object"].index
-	 # Check the skew of all numerical features
-	 skewed_feats = all_data[numeric_feats].apply(lambda x: skew(x.dropna())).sort_values(ascending=False)
-	 print("\nSkew in numerical features: \n")
-	 skewness = pd.DataFrame({'Skew' :skewed_feats})
-	 skewness.head(10)
-     ```
+numeric_feats = all_data.dtypes[all_data.dtypes != "object"].index
+#Check the skew of all numerical features
+skewed_feats = all_data[numeric_feats].apply(lambda x: skew(x.dropna())).sort_values(ascending=False)
+print("\nSkew in numerical features: \n")
+skewness = pd.DataFrame({'Skew' :skewed_feats})
+skewness.head(10)
+   ```
+
    - 按序对特征进行对数变换
      ```python
- skewness = skewness[abs(skewness) > 0.75]
- print("There are {} skewed numerical features to Box Cox transform".format(skewness.shape[0]))
-from scipy.special import boxcox1p
-skewed_features = skewness.index
-lam = 0.15
-for feat in skewed_features:
-	#all_data[feat] += 1
+	skewness = skewness[abs(skewness) > 0.75]
+	print("There are {} skewed numerical features to Box Cox transform".format(skewness.shape[0]))
+	from scipy.special import boxcox1p
+	skewed_features = skewness.index
+	lam = 0.15
+	for feat in skewed_features:
+	# all_data[feat] += 1
 	all_data[feat] = boxcox1p(all_data[feat], lam)
-#all_data[skewed_features] = np.log1p(all_data[skewed_features])
+	# all_data[skewed_features] = np.log1p(all_data[skewed_features])
 	```
 
 
