@@ -117,17 +117,17 @@ sns.heatmap(corrmat, vmax=0.9, square=True)
 	   
    ```
 
-4. **解决数据倾斜**
+1. **解决数据倾斜**
    我们用**scipy函数boxcox1p**来计算Box-Cox转换，目标是找到一个简单的转换方式使数据规范化。
    - 首先得到哪些变量具有偏度
-        ```python
-	numeric_feats = all_data.dtypes[all_data.dtypes != "object"].index
-	# Check the skew of all numerical features
-	skewed_feats = all_data[numeric_feats].apply(lambda x: skew(x.dropna())).sort_values(ascending=False)
-	print("\nSkew in numerical features: \n")
-	skewness = pd.DataFrame({'Skew' :skewed_feats})
-	skewness.head(10)
-		   ```
+     ```python
+	 numeric_feats = all_data.dtypes[all_data.dtypes != "object"].index
+	 # Check the skew of all numerical features
+	 skewed_feats = all_data[numeric_feats].apply(lambda x: skew(x.dropna())).sort_values(ascending=False)
+	 print("\nSkew in numerical features: \n")
+	 skewness = pd.DataFrame({'Skew' :skewed_feats})
+	 skewness.head(10)
+     ```
    - 按序对特征进行对数变换
      ```python
  skewness = skewness[abs(skewness) > 0.75]
@@ -138,12 +138,10 @@ lam = 0.15
 for feat in skewed_features:
 	#all_data[feat] += 1
 	all_data[feat] = boxcox1p(all_data[feat], lam)
-
 #all_data[skewed_features] = np.log1p(all_data[skewed_features])
-	 
-	 ```
+	```
 
-   
+
 
 # 4. 建模
 ## 4.1 导入相关的库
