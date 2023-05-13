@@ -1,6 +1,6 @@
 ---
 date created: 2023-05-13 17:58
-date updated: 2023-05-13 18:04
+date updated: 2023-05-13 18:13
 ---
 
 #todo
@@ -125,20 +125,14 @@ sns.heatmap(corrmat, vmax=0.9, square=True)
 
    ```python
    from sklearn.preprocessing import LabelEncoder
-   cols = ('FireplaceQu', 'BsmtQual', 'BsmtCond', 'GarageQual',   'GarageCond', 'ExterQual', 'ExterCond','HeatingQC', 'PoolQC', 'KitchenQual', 'BsmtFinType1', 'BsmtFinType2', 'Functional', 'Fence', 'BsmtExposure', 'GarageFinish', 'LandSlope','LotShape', 'PavedDrive', 'Street', 'Alley', 'CentralAir', 'MSSubClass', 'OverallCond', 
-   	'YrSold', 'MoSold')
-   ```
-
-# process columns, apply LabelEncoder to categorical features
-
-for c in cols:
-lbl = LabelEncoder()
-lbl.fit(list(all_data[c].values)) ·
-all_data[c] = lbl.transform(list(all_data[c].values))
-
-# shape
-
-print('Shape all_data: {}'.format(all_data.shape))
+   cols = ('FireplaceQu', 'BsmtQual', 'BsmtCond', 'GarageQual',   'GarageCond', 'ExterQual', 'ExterCond','HeatingQC', 'PoolQC', 'KitchenQual', 'BsmtFinType1', 'BsmtFinType2', 'Functional', 'Fence', 'BsmtExposure', 'GarageFinish', 'LandSlope','LotShape', 'PavedDrive', 'Street', 'Alley', 'CentralAir', 'MSSubClass', 'OverallCond','YrSold', 'MoSold')
+   # process columns, apply LabelEncoder to categorical features
+   for c in cols:
+	   lbl = LabelEncoder()
+	   lbl.fit(list(all_data[c].values)) ·
+	   all_data[c] = lbl.transform(list(all_data[c].values))
+   # shape
+   print('Shape all_data: {}'.format(all_data.shape))
 
 ````
 
@@ -236,21 +230,17 @@ def rmsle_cv(model):
 
 6. **LightGBM**
    ```python
-   model_lgb = lgb.LGBMRegressor(objective='regression',num_leaves=5,learning_rate=0.05, n_estimators=720,
-max_bin = 55, bagging_fraction = 0.8,
-bagging_freq = 5, feature_fraction = 0.2319,
-feature_fraction_seed=9, bagging_seed=9,
-min_data_in_leaf =6, min_sum_hessian_in_leaf = 11)
+   model_lgb = lgb.LGBMRegressor(objective='regression',num_leaves=5,learning_rate=0.05, n_estimators=720,max_bin = 55, bagging_fraction = 0.8,bagging_freq = 5, feature_fraction = 0.2319,feature_fraction_seed=9, bagging_seed=9,min_data_in_leaf =6, min_sum_hessian_in_leaf = 11)
    ```
 
-
-
 ## 4.4 基础模型的表现
+
 在交叉验证的策略下查看每个基础模型的表现状况
+
 ```python
 score = rmsle_cv(lasso)
 print("\nLasso score: {:.4f} ({:.4f})\n".format(score.mean(), score.std()))
-````
+```
 
 ## 4.5 stacking model
 
