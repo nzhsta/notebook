@@ -35,13 +35,13 @@
 	```python
 	sns.distplot(train['SalePrice'] , fit=norm);
 	# fit=norm 可以得到一条正态分布曲线
-```
+	```
 	![500](images/Pasted%20image%2020230505113642.png)
 2. **QQ图**（检验样本数据概率分布，默认检验变量的正态分布）
 	q-q 图是通过比较数据和正态分布的**分位数**是否相等来判断数据是不是符合正态分布
 	```python
 	stats.probplot(train['SalePrice'], plot=plt)
-```
+	```
 	![500](images/Pasted%20image%2020230505113659.png)
 	
 	可以由上面两个图看到，目标变量的分布是属于**右偏态**的，但是<u>一般的线性模型都要求变量符合正态分布</u>，所以我们需要使得目标变量更加符合**正态分布**。
@@ -103,36 +103,35 @@ sns.heatmap(corrmat, vmax=0.9, square=True)
 3. **增加特征**
    将某些特征组合（加减乘除）可以得到一个新的特征
    ```python
-   from sklearn.preprocessing import LabelEncoder
+	from sklearn.preprocessing import LabelEncoder
 	cols = ('FireplaceQu', 'BsmtQual', 'BsmtCond', 'GarageQual',   'GarageCond', 'ExterQual', 'ExterCond','HeatingQC', 'PoolQC', 'KitchenQual', 'BsmtFinType1', 'BsmtFinType2', 'Functional', 'Fence', 'BsmtExposure', 'GarageFinish', 'LandSlope','LotShape', 'PavedDrive', 'Street', 'Alley', 'CentralAir', 'MSSubClass', 'OverallCond', 
-	        'YrSold', 'MoSold')
+			'YrSold', 'MoSold')
 	 # process columns, apply LabelEncoder to categorical features
 	for c in cols:
-	    lbl = LabelEncoder() 
-	    lbl.fit(list(all_data[c].values)) 
-	    all_data[c] = lbl.transform(list(all_data[c].values))
+		lbl = LabelEncoder() 
+		lbl.fit(list(all_data[c].values)) ·
+		all_data[c] = lbl.transform(list(all_data[c].values))
 	
 	# shape        
 	print('Shape all_data: {}'.format(all_data.shape))
-   
+	   
    ```
 
 4. **解决数据倾斜**
    我们用**scipy函数boxcox1p**来计算Box-Cox转换，目标是找到一个简单的转换方式使数据规范化。
    - 首先得到哪些变量具有偏度
         ```python
-numeric_feats = all_data.dtypes[all_data.dtypes != "object"].index
-# Check the skew of all numerical features
-skewed_feats = all_data[numeric_feats].apply(lambda x: skew(x.dropna())).sort_values(ascending=False)
-print("\nSkew in numerical features: \n")
-skewness = pd.DataFrame({'Skew' :skewed_feats})
-skewness.head(10)
+	numeric_feats = all_data.dtypes[all_data.dtypes != "object"].index
+	# Check the skew of all numerical features
+	skewed_feats = all_data[numeric_feats].apply(lambda x: skew(x.dropna())).sort_values(ascending=False)
+	print("\nSkew in numerical features: \n")
+	skewness = pd.DataFrame({'Skew' :skewed_feats})
+	skewness.head(10)
 		   ```
    - 按序对特征进行对数变换
      ```python
-skewness = skewness[abs(skewness) > 0.75]
-print("There are {} skewed numerical features to Box Cox transform".format(skewness.shape[0]))
-
+ skewness = skewness[abs(skewness) > 0.75]
+ print("There are {} skewed numerical features to Box Cox transform".format(skewness.shape[0]))
 from scipy.special import boxcox1p
 skewed_features = skewness.index
 lam = 0.15
@@ -140,11 +139,12 @@ for feat in skewed_features:
 	#all_data[feat] += 1
 	all_data[feat] = boxcox1p(all_data[feat], lam)
 
-	#all_data[skewed_features] = np.log1p(all_data[skewed_features])
-     
-     ```
-     
+#all_data[skewed_features] = np.log1p(all_data[skewed_features])
+	 
+	 ```
+
    
+
 # 4. 建模
 ## 4.1 导入相关的库
 ```python
@@ -192,22 +192,22 @@ def rmsle_cv(model):
 
 5. **XGBoost**
    ```python
-model_xgb = xgb.XGBRegressor(colsample_bytree=0.4603, gamma=0.0468, 
-                             learning_rate=0.05, max_depth=3, 
-                             min_child_weight=1.7817, n_estimators=2200,
-                             reg_alpha=0.4640, reg_lambda=0.8571,
-                             subsample=0.5213, silent=1,
-                             random_state =7, nthread = -1)
+	model_xgb = xgb.XGBRegressor(colsample_bytree=0.4603, gamma=0.0468, 
+	                             learning_rate=0.05, max_depth=3, 
+	                             min_child_weight=1.7817, n_estimators=2200,
+	                             reg_alpha=0.4640, reg_lambda=0.8571,
+	                             subsample=0.5213, silent=1,
+	                             random_state =7, nthread = -1)
 	```
 
 6. **LightGBM**
    ```python
-model_lgb = lgb.LGBMRegressor(objective='regression',num_leaves=5,
-                              learning_rate=0.05, n_estimators=720,
-                              max_bin = 55, bagging_fraction = 0.8,
-                              bagging_freq = 5, feature_fraction = 0.2319,
-                              feature_fraction_seed=9, bagging_seed=9,
-                              min_data_in_leaf =6, min_sum_hessian_in_leaf = 11)
+	model_lgb = lgb.LGBMRegressor(objective='regression',num_leaves=5,
+	                              learning_rate=0.05, n_estimators=720,
+	                              max_bin = 55, bagging_fraction = 0.8,
+	                              bagging_freq = 5, feature_fraction = 0.2319,
+	                              feature_fraction_seed=9, bagging_seed=9,
+	                              min_data_in_leaf =6, min_sum_hessian_in_leaf = 11)
 	```
 
 ## 4.4 基础模型的表现
@@ -243,5 +243,4 @@ class AveragingModels(BaseEstimator, RegressorMixin, TransformerMixin):
 ```
 
 每个模型都会被训练到，最终取他们的平均预测结果作为最终的结果输出。
-
 
