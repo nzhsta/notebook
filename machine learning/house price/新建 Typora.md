@@ -7,13 +7,13 @@
 			        self.base_models = base_models
 			        self.meta_model = meta_model
 			        self.n_folds = n_folds
-   
+			   
 			    # We again fit the data on clones of the original models
 			    def fit(self, X, y):
 			        self.base_models_ = [list() for x in self.base_models]
 			        self.meta_model_ = clone(self.meta_model)
 			        kfold = KFold(n_splits=self.n_folds, shuffle=True, random_state=156)
-        
+			        
 			        # Train cloned base models then create out-of-fold predictions
 			        # that are needed to train the cloned meta-model
 			        out_of_fold_predictions = np.zeros((X.shape[0], len(self.base_models)))
