@@ -35,7 +35,7 @@ date updated: 2023-05-13 18:21
 1. **偏度、峰度**
    利用`from scipy import stats`方法可以得到某个变量的统计分布情况
    `(mu, sigma) = norm.fit(train['SalePrice'])
-    利用`sns.displot(var)``方法可以得到某个变量var的**正态分布直方图以及核密度估计**
+    利用`sns.displot(var)`方法可以得到某个变量var的**正态分布直方图以及核密度估计**
    ```python
    sns.distplot(train['SalePrice'] , fit=norm);
    # fit=norm 可以得到一条正态分布曲线
@@ -116,7 +116,7 @@ sns.heatmap(corrmat, vmax=0.9, square=True)
 ## 3.3 其他特征工程
 
 1. **将某些数值变量转变成类别变量**
-   ``all_data['MSSubClass'].apply(str)
+   `all_data['MSSubClass'].apply(str)`
 
 2. **对一些可能包含信息的分类变量进行标签编码，以反映它们的顺序集合**
 
