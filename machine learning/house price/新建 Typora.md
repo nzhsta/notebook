@@ -2,7 +2,7 @@
 	1. fff
 		1. 方法
 		   ```python
-		   # Finding numeric features
+		    # Finding numeric features
 		   
 		   numeric_dtypes = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
 		   numeric = []
@@ -30,3 +30,4 @@
 		   
 		   			plt.legend(loc='best', prop={'size': 10})
 		   plt.show()
+```
