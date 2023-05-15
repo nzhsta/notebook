@@ -2,35 +2,43 @@
 	1. fff
 		1. 方法
 		   ```python
-		    # Finding numeric features
-		   
-		   numeric_dtypes = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
-		   numeric = []
-		   for i in train.columns:
-		       if train[i].dtype in numeric_dtypes:
-		           if i in ['TotalSF', 'Total_Bathrooms', 'Total_porch_sf', 'haspool', 'hasgarage', 'hasbsmt', 'hasfireplace']:
-		               pass
-		           else:
-		               numeric.append(i)
-		           # visualising some more outliers in the data values
-		   fig, axs = plt.subplots(ncols=2, nrows=0, figsize=(12, 120))
-		   plt.subplots_adjust(right=2)
-		   plt.subplots_adjust(top=2)
-		   sns.color_palette("husl", 8)
-		   for i, feature in enumerate(list(train[numeric]), 1):
-		       if (feature == 'MiscVal'):
-		           break
-		       plt.subplot(len(list(numeric)), 3, i)
-		       sns.scatterplot(x=feature, y='SalePrice', hue='SalePrice', palette='Blues', data=train)
-		       plt.xlabel('{}'.format(feature), size=15, labelpad=12.5)
-		   		plt.ylabel('SalePrice', size=15, labelpad=12.5)
-		   		for j in range(2):
-		         plt.tick_params(axis='x', labelsize=12)
-		         plt.tick_params(axis='y', labelsize=12)
-		   
-		   			plt.legend(loc='best', prop={'size': 10})
-		   plt.show()
-```
+		   class StackingAveragedModels(BaseEstimator, RegressorMixin, TransformerMixin):
+			    def __init__(self, base_models, meta_model, n_folds=5):
+			        self.base_models = base_models
+			        self.meta_model = meta_model
+			        self.n_folds = n_folds
+   
+			    # We again fit the data on clones of the original models
+			    def fit(self, X, y):
+			        self.base_models_ = [list() for x in self.base_models]
+			        self.meta_model_ = clone(self.meta_model)
+			        kfold = KFold(n_splits=self.n_folds, shuffle=True, random_state=156)
+        
+			        # Train cloned base models then create out-of-fold predictions
+			        # that are needed to train the cloned meta-model
+			        out_of_fold_predictions = np.zeros((X.shape[0], len(self.base_models)))
+			        for i, model in enumerate(self.base_models):
+			            for train_index, holdout_index in kfold.split(X, y):
+			                instance = clone(model)
+			                self.base_models_[i].append(instance)
+			                instance.fit(X[train_index], y[train_index])
+			                y_pred = instance.predict(X[holdout_index])
+			                out_of_fold_predictions[holdout_index, i] = y_pred
+			                
+			        # Now train the cloned  meta-model using the out-of-fold predictions as new feature
+			        self.meta_model_.fit(out_of_fold_predictions, y)
+			        return self
+			   
+			    #Do the predictions of all base models on the test data and use the averaged predictions as 
+			    #meta-features for the final prediction which is done by the meta-model
+			    def predict(self, X):
+			        meta_features = np.column_stack([
+			            np.column_stack([model.predict(X) for model in base_models]).mean(axis=1)
+			            for base_models in self.base_models_ ])
+			        return self.meta_model_.predict(meta_features)
+			```
+
+是
 
 | 李宪慧  | 时间        | 事由  |  支出     |  收入      |
 |------|-----------|-----|---------|----------|
