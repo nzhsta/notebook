@@ -36,13 +36,15 @@
 			            np.column_stack([model.predict(X) for model in base_models]).mean(axis=1)
 			            for base_models in self.base_models_ ])
 			        return self.meta_model_.predict(meta_features)
-			```
-
-1. 大
-	1. 大
-	2. 得到的
-	   |     | 大  |     | 
-	   | --- | --- | --- |
-	   |     |     |     |
-	   
-	3. d
+																					```
+																																					
+																																						1. 大
+																																									1. 大
+																																										1. 得到的
+																																											1. |     | 大  |     | 
+																																											   | --- | --- | --- |
+																																											   | --- | --- | --- |
+																																											   |     |     |     |
+																																												   
+																																														1. d
+	
