@@ -8,7 +8,7 @@ date updated: 2023-05-13 18:21
 本篇笔记主要是对 house price 比赛的优秀案例进行总结的笔记
 
 - [x] 阅读特征工程笔记[stack_regression 阅读笔记](stack_regression%20阅读笔记.md)
-- [ ] 阅读[Regularized Linear Models](https://www.kaggle.com/apapiu/regularized-linear-models)
+- [x] 阅读[Regularized Linear Models](https://www.kaggle.com/apapiu/regularized-linear-models)
 
 以上两篇文章都会对完成这次回归任务有很大的帮助
 
