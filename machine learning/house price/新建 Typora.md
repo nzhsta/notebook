@@ -37,14 +37,4 @@
 			            for base_models in self.base_models_ ])
 			        return self.meta_model_.predict(meta_features)
 																					```
-																																					
-																																						1. 大
-																																									1. 大
-																																										1. 得到的
-																																											1. |     | 大  |     | 
-																																											   | --- | --- | --- |
-																																											   | --- | --- | --- |
-																																											   |     |     |     |
-																																												   
-																																														1. d
 	
