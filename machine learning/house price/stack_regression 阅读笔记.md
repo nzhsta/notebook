@@ -213,7 +213,7 @@ def rmsle_cv(model):
 
 1. **Gradient Boosting Regression**
    [什么是huber损失？](https://zhuanlan.zhihu.com/p/358103958)
-   使用huber损失会使得模型对于异常值更加的健壮
+   使用huber损失会使得模型对于异常值更加的健壮·
 
 2. **XGBoost**
    ```python
