@@ -211,11 +211,11 @@ def rmsle_cv(model):
    此外，从实际应用来看， 因为数据可能是**非线性**的，<u>单纯地假设真实数据服从线性关系，并用线性模型来回归真实的非线性数据，效果想必不会好</u>。所以，引入kernel还能有一个好处，就是：引入kernel的RR，也就是KRR，能够**处理非线性数据**，即，将数据映射到某一个核空间，使得数据在这个核空间上**线性可分**。
    `KRR = KernelRidge(alpha=0.6, kernel='polynomial', degree=2, coef0=2.5)`
 
-4. **Gradient Boosting Regression**
+1. **Gradient Boosting Regression**
    [什么是huber损失？](https://zhuanlan.zhihu.com/p/358103958)
    使用huber损失会使得模型对于异常值更加的健壮
 
-5. **XGBoost**
+2. **XGBoost**
    ```python
    model_xgb = xgb.XGBRegressor(colsample_bytree=0.4603, gamma=0.0468, 
                                  learning_rate=0.05, max_depth=3, 
