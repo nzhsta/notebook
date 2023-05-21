@@ -8,7 +8,7 @@ date updated: 2023-05-13 18:21
 本篇笔记主要是对 house price 比赛的优秀案例进行总结的笔记
 
 - [x] 阅读特征工程笔记[stack_regression 阅读笔记](stack_regression%20阅读笔记.md)
-- [ ] 阅读[Regularized Linear Models](https://www.kaggle.com/apapiu/regularized-linear-models)
+- [x] 阅读[Regularized Linear Models](https://www.kaggle.com/apapiu/regularized-linear-models)
 
 以上两篇文章都会对完成这次回归任务有很大的帮助
 
@@ -22,7 +22,7 @@ date updated: 2023-05-13 18:21
 ## 2.1 异常值
 
 对于目标值和特征画出散点图，可以比较清晰的看出是否具有比较离谱的异常值，如下图所示：
-![](images/Pasted%20image%2020230503210448.png)
+![500](images/Pasted%20image%2020230503210448.png)
 上图可以看到，在坐标轴的右边，有两个离群点异常值（特别**极端**的异常)，可以讲这两个异常样本去除。
 一般情况下，直接这样去除异常样本是很不安全的，但是对于这种特别**极端**的值可以放心的去除。
 
@@ -76,7 +76,7 @@ plt.show()
 
 ```
 
-![](images/Pasted%20image%2020230505171504.png)
+![500](images/Pasted%20image%2020230505171504.png)
 可以看到**训练数据的目标变量**经过对数变换之后，更加符合正态分布。
 
 # 3. 特征工程
@@ -211,11 +211,11 @@ def rmsle_cv(model):
    此外，从实际应用来看， 因为数据可能是**非线性**的，<u>单纯地假设真实数据服从线性关系，并用线性模型来回归真实的非线性数据，效果想必不会好</u>。所以，引入kernel还能有一个好处，就是：引入kernel的RR，也就是KRR，能够**处理非线性数据**，即，将数据映射到某一个核空间，使得数据在这个核空间上**线性可分**。
    `KRR = KernelRidge(alpha=0.6, kernel='polynomial', degree=2, coef0=2.5)`
 
-4. **Gradient Boosting Regression**
+1. **Gradient Boosting Regression**
    [什么是huber损失？](https://zhuanlan.zhihu.com/p/358103958)
    使用huber损失会使得模型对于异常值更加的健壮
 
-5. **XGBoost**
+2. **XGBoost**
    ```python
    model_xgb = xgb.XGBRegressor(colsample_bytree=0.4603, gamma=0.0468, 
                                  learning_rate=0.05, max_depth=3, 

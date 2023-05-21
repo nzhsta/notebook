@@ -11,5 +11,4 @@ I strongly recommend to use "Source mode" for viewing the conflicted files. For 
 ```diff
 <<<<<<< HEAD
     File changes in local repository
->>>>>>> origin/main
 ```

@@ -36,6 +36,7 @@
 			            np.column_stack([model.predict(X) for model in base_models]).mean(axis=1)
 			            for base_models in self.base_models_ ])
 			        return self.meta_model_.predict(meta_features)
+<<<<<<< HEAD
 			```
 
 是
@@ -63,4 +64,12 @@
 	2. 
 >>>>>>> origin/study
 
+=======
+						```
+		1. 方法
+			1. 啊
+			   #think
+>>>>>>> origin/study
 
+-
+-
