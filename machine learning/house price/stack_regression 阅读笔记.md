@@ -1,11 +1,10 @@
----
-mindmap-plugin: basic
----
----
 
+
+---
 date created: 2023-05-13 17:58
 date updated: 2023-05-13 18:21
 ---
+
 
 
 #todo
