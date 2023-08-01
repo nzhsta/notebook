@@ -10,4 +10,4 @@
 	  4. RDD 是一个依赖<font color="#2DC26B">其他 RDD </font>的列表
 	     RDD\==> RDD 1\==> RDD 2\==> RDD 3
 	     RDD 之间存在依赖关系
-	     例子：RDDA（5 partition）\==>RDDB (partition)
+	     例子：RDDA（5 partition）\==>RDDB (5 partition)
