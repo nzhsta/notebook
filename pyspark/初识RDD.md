@@ -59,7 +59,7 @@ sc = SparkContext(conf=conf)
 
 通过 `pyspark` 命令启动 python，并在命令行中 `sc` 可以看到
 
-![image-20230801221025732](./images//image-20230801221025732.png)
+![image-20230801221025732](image/image-20230801221025732.png)
 
 可以看到已经存在 appname 了，这是因为在启动 pyspark 程序的时候，源码中包含了:
 
@@ -82,7 +82,7 @@ distData = sc.parallelize(data， 5) # 5为数据被切分的分区数
 
 一旦RDD被创建，这个RDD就可以被从并行化操作
 
-![image-20230801222903614](./images//image-20230801222903614.png)
+![image-20230801222903614](image/image-20230801222903614.png)
 
 partition的数量直接影响到运行时的性能，通常情况下一个cpu一般设置2-4个partition， 充分利用cpu的性能，一般情况下，sparrk会自动设置partition的数量，也支持手动指定
 
@@ -93,14 +93,64 @@ partition的数量直接影响到运行时的性能，通常情况下一个cpu�
 ​	Spark支持textFile、SequenceFiles或者其他的Hadoop InputFormate文件
 
 1. TextFile方法
-   使用sc的`textFile`方法，不仅可以传入本地（`file:///home/jarven/data.txt`)的一个文件，也可以类似与HDFS等文件（ `hdfs://`, `s3a://`）
 
+   - **读取**
+
+     使用sc的`textFile`方法，不仅可以传入本地（`file:///home/jarven/data.txt`)的一个文件，也可以类似与HDFS等文件（ `hdfs://`, `s3a://`）
+
+     ```python
+     sc.textfile('file:///home/jarven/data.txt').collect()
+     sc.textfile('hdfs://hadoop000:8020/data.txt').collect()
+     ```
+
+     **注意：**
+
+     1. 使用本地文件系统的时候，必须保证在每个node都可以在相同的路径上访问到该文件, 否则会报错
+     2. textfile 也可以设置partition参数，spark会默认为文件的每个block(在HDFS中，默认128M为一个block)创建一个partition ，可以设置更大的partition，但是不可以设置比block更小的partition值
+
+   - **写出**
+     `RDD.saveAsTextFile(path)`
+
+   
+
+2. wholeTextFiles方法
+   支持读取整个文件夹，其文件夹包含很多的小文件，他会返回一个他们的k-v pair对（filename， content），这个和`textfile`不同，`textfile`返回文件的每一行记录
+   ![image-20230801231206499](image/image-20230801231206499.png)
+
+
+
+3. 保存和加载sequenceFiles
    ```python
-   sc.textfile('file:///home/jarven/data.txt').collect()
-   sc.textfile('hdfs://hadoop000:8020/data.txt').collect()
+   >>> rdd = sc.parallelize(range(1, 4)).map(lambda x: (x, "a" * x))
+   >>> rdd.saveAsSequenceFile("path/to/file") # 保存
+   >>> sorted(sc.sequenceFile("path/to/file").collect()) # 读取
+   [(1, u'a'), (2, u'aa'), (3, u'aaa')]
    ```
 
-   **注意：**使用本地文件系统的时候，必须保证在每个node都可以在相同的路径上访问到该文件
+    
 
-2. 
+4. 其他类型
+   例如ES：
+
+   ```python
+   $ ./bin/pyspark --jars /path/to/elasticsearch-hadoop.jar
+   >>> conf = {"es.resource" : "index/type"}  # assume Elasticsearch is running on localhost defaults
+   >>> rdd = sc.newAPIHadoopRDD("org.elasticsearch.hadoop.mr.EsInputFormat",
+                                "org.apache.hadoop.io.NullWritable",
+                                "org.elasticsearch.hadoop.mr.LinkedMapWritable",
+                                conf=conf)
+   >>> rdd.first()  # the result is a MapWritable that is converted to a Python dict
+   (u'Elasticsearch ID',
+    {u'field1': True,
+     u'field2': u'Some Text',
+     u'field3': 12345})
+   ```
+
+   
+
+   
+
+## 4	Spark应用程序开发及运行
+
+
 
