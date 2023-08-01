@@ -59,6 +59,23 @@ sc = SparkContext(conf=conf)
 
 通过 `pyspark` 命令启动 python，并在命令行中 `sc` 可以看到
 
-<img src="./images//image-20230801220414835.png" alt="image-20230801220414835" style="zoom:50%;" />
+![image-20230801221025732](./images//image-20230801221025732.png)
 
-可以看到已经存在appname了，这是因为在启动pyspark程序的时候，源码中包含了
+可以看到已经存在 appname 了，这是因为在启动 pyspark 程序的时候，源码中包含了:
+
+```shell
+exec "${SPARK_HOME}"/bin/spark-submit pyspark-shell-main --name "PySparkShell" "$@"
+```
+
+
+
+## 3	RDD 的创建
+
+### 3.1	parallelizing an collection
+
+
+
+### 3.2	referencing a dataset 
+
+
+
