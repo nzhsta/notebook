@@ -50,15 +50,15 @@
 
 ### 2.2	SparkConf
 
- 在创建sparkcontext之前，需要创建sparkconf对象，其包含了一些应用的信息，设置spark的参数  
+ 在创建sparkcontext之前，需要创建**sparkconf**对象，其包含了一些应用的信息，设置spark的参数  
 
 ```python
 conf = SparkConf().setAppName(appName).setMaster(master)
 sc = SparkContext(conf=conf)
 ```
 
+通过 `pyspark` 命令启动 python，并在命令行中 `sc` 可以看到
 
+<img src="./images//image-20230801220414835.png" alt="image-20230801220414835" style="zoom:50%;" />
 
-
-
-通过`pyspark`命令启动python
+可以看到已经存在appname了，这是因为在启动pyspark程序的时候，源码中包含了
