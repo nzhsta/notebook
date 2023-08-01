@@ -10,8 +10,7 @@
          $y=f(x)$
          $rdd.map(\_+1)$
       4. RDD 是一个依赖<font color="#2DC26B">其他 RDD </font>的列表
-         RDD\==> RDD 1\==> RDD 2\==> RDD 3
-         RDD 之间存在依赖关系
+         RDD\==> RDD 1\==> RDD 2\==> RDD 3 
          **例子：**
                RDDA（5 partition）\==> RDDB (5 partition)
                如果 RDDB 由 5 个分区的 RDDA 生成，那么 RDDB 也具有 5 个分区，并且**依赖关系**会被记录下来，如果 RDDB 的某个分区数据因为一些错误丢失，那么可以通过这种依赖关系对数据进行恢复
@@ -32,6 +31,29 @@
 
 - 第一要务
   创建sparkcontext
+
 - 什么是sparkcontext？
+  pyspark.SparkContext，它是spark功能的**主入口点**，连接到spark集群 （loacl、standlone、yarn等）
+
+- 作用
+  - 通过sparkcontext创建RDD
+
+  - 广播变量到集群
+
+- 示例
+  ```python
+  from pyspark.context import SparkContext
+  sc = SparkContext('local', 'test')
+  ```
+
   
+
+### 2.2	SparkConf
+
+ 在创建sparkcontext之前，需要创建sparkconf对象，其包含了一些应用的信息，设置spark的参数  
+
+```python
+conf = SparkConf().setAppName(appName).setMaster(master)
+sc = SparkContext(conf=conf)
+```
 
