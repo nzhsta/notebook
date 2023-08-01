@@ -57,3 +57,8 @@ conf = SparkConf().setAppName(appName).setMaster(master)
 sc = SparkContext(conf=conf)
 ```
 
+
+
+
+
+通过`pyspark`命令启动python
