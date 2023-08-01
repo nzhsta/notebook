@@ -46,7 +46,7 @@
   sc = SparkContext('local', 'test')
   ```
 
-  
+  在实际的使用过程中，不要使用以上这种硬编码的方式，应该通过**submit**的方式传输进来。
 
 ### 2.2	SparkConf
 
