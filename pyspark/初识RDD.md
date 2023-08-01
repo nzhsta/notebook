@@ -73,9 +73,22 @@ exec "${SPARK_HOME}"/bin/spark-submit pyspark-shell-main --name "PySparkShell" "
 
 ### 3.1	parallelizing an collection
 
+​	通过 sc 的 `parallelize` 方法，在 drive 端将一个已经存在的**可迭代的**或者**一个集合**， parallelizing 一个已经存在的集合。
 
+```python
+data = [1, 2, 3, 4, 5]
+distData = sc.parallelize(data， 5) # 5为数据被切分的分区数
+```
+
+一旦RDD被创建，这个RDD就可以被从并行化操作
+
+![image-20230801222903614](./images//image-20230801222903614.png)
+
+partition的数量直接影响到运行时的性能
 
 ### 3.2	referencing a dataset 
+
+​	在外边存储系统中（共享的文件系统:HDFS 、Hbase、Hive或者其他提供**Hadoop InputFormate的数据源**）
 
 
 
