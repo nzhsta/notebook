@@ -152,5 +152,34 @@ partition的数量直接影响到运行时的性能，通常情况下一个cpu�
 
 ## 4	Spark应用程序开发及运行
 
+1. 在pycharm中设置基本参数
 
+   - 添加环境变量
+     `PYTHONPATH = E:\environment\spark\spark-3.3.1-bin-hadoop3\python`
+     `SPARK_HOME = E:\environment\spark\spark-3.3.1-bin-hadoop3`
 
+   - 添加zip包
+
+     这两个zip包来自spark/python/lib下的两个zip文件
+     ![image-20230801234511822](image/image-20230801234511822.png)
+
+   - 编辑代码
+     ```python
+     from pyspark import SparkConf, SparkContext
+     
+     # 创建sparkconf，spark参数信息设置
+     conf = SparkConf().setMaster('local[2]').setAppName('jarven_spark')
+     # 创建sparkContext
+     sc = SparkContext(conf = conf)
+     
+     # 业务逻辑
+     data = [1, 2, 3, 4, 5]
+     distdata = sc.parallelize(data, 5)
+     print(distdata.collect())
+     
+     
+     
+     sc.stop()
+     ```
+
+     
