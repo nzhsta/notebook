@@ -182,4 +182,6 @@ partition的数量直接影响到运行时的性能，通常情况下一个cpu�
      sc.stop()
      ```
 
-     
+   - 运行代码
+
+     `./spark-submit --master loacl[2] --name spark_test  test.py`
