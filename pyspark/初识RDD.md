@@ -10,4 +10,7 @@
 	  4. RDD 是一个依赖<font color="#2DC26B">其他 RDD </font>的列表
 	     RDD\==> RDD 1\==> RDD 2\==> RDD 3
 	     RDD 之间存在依赖关系
-	     例子：RDDA（5 partition）\==>RDDB (5 partition)
+	     例子：
+	           RDDA（5 partition）\==> RDDB (5 partition)
+	           如果 RDDB 由 5 个分区的 RDDA 生成，那么 RDDB 也具有 5 个分区，并且**依赖关系**会被记录下来，如果 RDDB 的某个分区数据因为一些错误丢失，那么可以通过这种依赖关系对数据进行恢复
+
