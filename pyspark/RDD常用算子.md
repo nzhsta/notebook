@@ -64,7 +64,18 @@
 ### 2.4	groupByKey
 
 - 作用
+  对pari形式的RDD将相同的key的数据分发到一起
+- 案例
+  ![image-20230803002924944](image/image-20230803002924944.png)
+
+- reduceByKey
+  ```python
+  reduceByKey = RDD.groupByKey(lambda )
+  ```
+
   
+
+
 
 ## 3	 Action算子
 
