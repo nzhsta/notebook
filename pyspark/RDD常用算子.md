@@ -39,12 +39,32 @@
 
 ## 2	Transformer算子
 
-### 2.1 map
+### 2.1	map
 
 - 作用
   将function函数作用到数据集的**每一个元素**上，并生成一个新的RDD
 
+### 2.2	filter
 
+- 作用
+  选出所有function返回值为TRUE的元素，并生成一个新的RDD
+
+- 示例
+  ```python
+  >>> data = sc.parallelize([12, 2, 3, 4, 5])
+  >>> data1 = data.filter(lambda x: x>5)
+  >>> data1.collect()
+  ```
+
+### 2.3	flatMap
+
+- 作用
+  输入的item能够被map到0或者多个array输出,再将这些array flat成一个sequence，返回值是一个sequence
+
+### 2.4	groupByKey
+
+- 作用
+  
 
 ## 3	 Action算子
 
