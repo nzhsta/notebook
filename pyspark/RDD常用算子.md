@@ -66,11 +66,13 @@
 - 作用
   对pari形式的RDD将相同的key的数据分发到一起
 - 案例
-  ![image-20230803002924944](image/image-20230803002924944.png)
+  ![image-20230803003628963](image/image-20230803003628963.png)
 
 - reduceByKey
+  实际是对groupByKey的value按照某种函数进行**规约**、计算（<font color="#f79646">是不是必须规约？</font>）
+
   ```python
-  reduceByKey = RDD.groupByKey(lambda )
+  reduceByKey = RDD.groupByKey(lambda a, b: a+b)
   ```
 
   
