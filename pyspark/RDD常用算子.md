@@ -97,13 +97,43 @@
 ### 3.9	join
 
 1. inner join
-2. Out join (left、right 、full) 
 
-![image-20230803200708653](./images//image-20230803200708653.png)
+   `RDDA.join(RDDB)`
+
+   ![image-20230803200708653](./images//image-20230803200708653.png)
+
+2. leftOutJoin
+   `RDDA.leftOutJoin(RDDB)`
+
+3. rightOutJoin
+
+
 
 
 
 ## 3	 Action算子
+
+### 3.1	collect
+
+### 3.2	count
+
+	- min
+	- max
+	- sum 
+
+
+
+### 3.3	reduce
+
+### 3.4	take
+
+### 3.5	saveAsTextFile 
+
+### 3.6	foreach
+
+
+
+ 
 
 ## 4	Spark RDD案例实战
 
