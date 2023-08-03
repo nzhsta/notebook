@@ -70,6 +70,7 @@
   **传入的RDD元素必须是pair对形式的**
   
   对pari形式的RDD将相同的key的数据分发到一起
+  
 - 案例
   ![image-20230803003628963](image/image-20230803003628963.png)
 
@@ -80,7 +81,14 @@
   reduceByKey = RDD.groupByKey(lambda a, b: a+b)
   ```
 
-  
+
+### 2.5	reduceByKey
+
+### 2.6	sortByKey
+
+### 2.7	Union
+
+
 
 
 
