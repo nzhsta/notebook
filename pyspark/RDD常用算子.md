@@ -88,11 +88,18 @@
 
 ### 2.7	Union
 
+类似于list的append
 
+![image-20230803200051249](./images//image-20230803200051249.png)
 
 ### 2.8	distinct
 
+### 3.9	join
 
+1. inner join
+2. Out join (left、right 、full) 
+
+![image-20230803200708653](./images//image-20230803200708653.png)
 
 
 
