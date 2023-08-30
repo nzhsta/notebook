@@ -88,7 +88,7 @@
 
 ### 2.7	Union
 
-类似于list的append
+类似于list的append \ extend
 
 ![image-20230803200051249](./images//image-20230803200051249.png)
 
