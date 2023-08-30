@@ -78,7 +78,7 @@
   实际是对groupByKey的value按照某种函数进行**规约**、计算（<font color="#f79646">是不是必须规约？</font>）
 
   ```python
-  reduceByKey = RDD.groupByKey(lambda a, b: a+b)
+  reduceByKey(lambda a, b: a+b) = RDD.groupByKey.map(lambda a, b: a+b).collect()
   ```
 
 
