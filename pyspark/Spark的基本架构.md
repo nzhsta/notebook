@@ -1,6 +1,6 @@
 # 03	spark基本架构
 
-#### 一	Spark优势特点
+#### 01	Spark优势特点
 
 作为大数据计算框架MapReduce的继任者，Spark具备以下优势特性。
 
@@ -33,34 +33,36 @@ Spark能够跟很多开源工程兼容使用。如Spark可以使用Hadoop的YARN
 
 ![](./images/spark%E4%B8%BB%E8%A6%81%E7%89%B9%E7%82%B9.png)
 
-#### 二	Spark基本概念
+#### 02	Spark基本概念
 
 1. application
 
    **application = driver + executors** ,一个应用程序由一个driver和多个execuor组成。
 
+   用户编写的Spark应用程序，一个Application包含多个Job（**job的数量由application的action数量决定**）。
 
+2. RDD
 
+   弹性分布式数据集（Resilient Distributed Dataset）的简称，是分布式内存的一个抽象概念，提供了一种高度受限的共享内存模型。
 
-RDD：是弹性分布式数据集（Resilient Distributed Dataset）的简称，是分布式内存的一个抽象概念，提供了一种高度受限的共享内存模型。
+3. DAG
 
-DAG：是Directed Acyclic Graph（有向无环图）的简称，反映RDD之间的依赖关系。
+   Directed Acyclic Graph（有向无环图）的简称，反映RDD之间的依赖关系。
 
-Driver Program：控制程序，负责为Application构建DAG图，主要组成为application的main函数和sparkcontext。
-
-Cluster Manager：集群资源管理中心，负责分配计算资源。
-
-Worker Node：工作节点，负责完成具体计算,一个工作节点一个excutor。
-
-Executor：是运行在工作节点（Worker Node）上的**一个进程**，负责运行Task，并为应用程序**存储数据**。
-
-Application：用户编写的Spark应用程序，一个Application包含多个Job（**job的数量由application的action数量决定**）。
-
-Job：作业，一个Job包含多个RDD及作用于相应RDD上的各种操作。
-
-Stage：阶段，是作业的基本调度单位，一个作业（job）会分为多组任务（task），每组任务（task)被称为“阶段”（stage）。
-
-Task：任务，运行在Executor上的工作单元，是Executor中的**一个线程**。
+4. Driver Program
+   控制程序，负责为Application构建DAG图，主要组成为application的main函数和sparkcontext对象。
+5. Cluster Manager
+   集群资源管理中心，负责分配计算资源。
+6. Worker Node
+   工作节点，负责完成具体计算,一个工作节点一个excutor。
+7. Executor
+   运行在工作节点（Worker Node）上的**一个进程**，负责运行Task，并为应用程序**存储数据**。
+8. Job
+   作业，一个Job包含多个RDD及作用于相应RDD上的各种操作。
+9. Stage
+   阶段，是作业的基本调度单位，一个作业（job）会分为多组任务（task），每组任务（task)被称为“阶段”（stage）。
+10. Task
+    任务，运行在Executor上的工作单元，是Executor中的**一个线程**。
 
 ​			**一个executor是一个进程，其中有很多的task，这些task会以多个线程并行计算。**
 
@@ -68,18 +70,14 @@ Task：任务，运行在Executor上的工作单元，是Executor中的**一个�
 
 
 
-总结：Application由多个Job组成，Job由多个Stage组成，Stage由多个Task组成。Stage是作业调度的基本单位。
+- **总结：**Application由多个Job组成，Job由多个Stage组成，Stage由多个Task组成。Stage是作业调度的基本单位。
 
+  ![](./images/spark%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.png)
+  
 
-![](./images/spark%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.png)
-<!-- #endregion -->
+#### 03	Spark架构设计
 
-
-<!-- #region -->
-
-#### 三，Spark架构设计
-
-Spark集群由Driver, Cluster Manager（Standalone,Yarn 或 Mesos），以及Worker Node组成。对于每个Spark应用程序，Worker Node上存在一个Executor进程，Executor进程中包括多个Task线程。
+Spark集群由Driver, Cluster Manager（Standalone,Yarn 或 Mesos），以及多个Worker Node组成。对于每个Spark应用程序，每个Worker Node上存在一个Executor**进程**，Executor进程中包括多个Task**线程**。
 
 ![](./images/spark%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1.png)
 
