@@ -37,7 +37,7 @@ Spark能够跟很多开源工程兼容使用。如Spark可以使用Hadoop的YARN
 
 1. application
 
-   **application = driver + executors** ,一个应用程序由一个driver和多个execuor组成。
+   **application = driver（1) + executors(N)** ,一个应用程序由一个driver和多个execuor组成。
 
    用户编写的Spark应用程序，一个Application包含多个Job（**job的数量由application的action数量决定**）。
 
@@ -88,12 +88,10 @@ Spark集群由Driver, Cluster Manager（Standalone,Yarn 或 Mesos），以及多
 
 
 
-<!-- #endregion -->
-
-<!-- #region -->
 
 
-#### 四，Spark运行流程
+
+#### 04	Spark运行流程
 
 1，Application首先被Driver构建DAG图并分解成Stage。
 
@@ -115,8 +113,8 @@ Spark集群由Driver, Cluster Manager（Standalone,Yarn 或 Mesos），以及多
 
 ![](./images/spark%E4%BB%BB%E5%8A%A1%E6%B5%81%E7%A8%8B.png)
 
-![](./images/spark%E6%9E%B6%E6%9E%84%E8%BF%90%E8%A1%8C%E7%89%B9%E7%82%B9.png)
-<!-- #endregion -->
+​	![](./images/spark%E6%9E%B6%E6%9E%84%E8%BF%90%E8%A1%8C%E7%89%B9%E7%82%B9.png)
+
 
 #### 五，Spark部署模式
 
@@ -135,7 +133,7 @@ Mesos：与Yarn最大的不同是Mesos 的资源分配是二次的，Mesos负责
 
 RDD全称Resilient Distributed Dataset，弹性分布式数据集，它是记录的只读分区集合，是Spark的基本数据结构。
 
-RDD代表一个不可变、可分区、里面的元素可并行计算的集合。
+RDD代表一个**不可变、可分区、里面的元素可并行计算的集合**。
 
 一般有两种方式创建RDD，第一种是读取文件中的数据生成RDD，第二种则是通过将内存中的对象并行化得到RDD。
 
@@ -149,10 +147,9 @@ rdd = sc.textFile("hdfs://hans/data_warehouse/test/data")
 arr = [1,2,3,4,5]
 rdd = sc.parallelize(arr)
 
-
 ```
 
-<!-- #region -->
+
 创建RDD之后，可以使用各种操作对RDD进行编程。
 
 RDD的操作有两种类型，即Transformation操作和Action操作。转换操作是从已经存在的RDD创建一个新的RDD，而行动操作是在RDD上进行计算后返回结果到 Driver。
@@ -161,8 +158,7 @@ Transformation操作都具有 Lazy 特性，即 Spark 不会立刻进行实际�
 
 ![](./images/RDD%E7%89%B9%E6%80%A7.png)
 
-
-操作确定了RDD之间的依赖关系。
+**Action**确定了RDD之间的依赖关系。
 
 RDD之间的依赖关系有两种类型，即窄依赖和宽依赖。窄依赖时，父RDD的分区和子RDD的分区的关系是一对一或者多对一的关系。而宽依赖时，父RDD的分区和自RDD的分区是一对多或者多对多的关系。
 
