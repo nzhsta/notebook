@@ -11,8 +11,12 @@
             "id": "5987e5b863ee3b97",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "摄影/摄影知识.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -108,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "摄影/摄影知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "摄影/摄影知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +200,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "8e9f71ad8cc295fc",
+  "active": "5987e5b863ee3b97",
   "lastOpenFiles": [
     "摄影/摄影知识.md",
     "摄影/images/Pasted image 20231216223432.png",
