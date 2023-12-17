@@ -1,0 +1,12 @@
+{
+  "minimal-style@@bold-color@@light": "#D2094B",
+  "minimal-style@@bold-color@@dark": "#CA0A71",
+  "minimal-style@@inline-title-color@@light": "#210AA7",
+  "minimal-style@@inline-title-color@@dark": "#114C9A",
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-default",
+  "blue-topaz-theme@@background-settings-workplace-background-image": false,
+  "blue-topaz-theme@@scrollbar-style-option": "hover-scrollbars",
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-sublime",
+  "blue-topaz-theme@@text-indentation-two-em": true,
+  "blue-topaz-theme@@font-weight-strong": "bolder"
+}

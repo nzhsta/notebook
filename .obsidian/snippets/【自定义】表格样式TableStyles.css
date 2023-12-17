@@ -1,0 +1,169 @@
+
+
+/* --------------------------------------------   */
+/* Custom fonts. Comment or change as required    */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+/* --------------------------------------------   */
+
+
+/* Obsidian default theme uses centered headers? */
+/* I rather not */
+
+/*
+=========================
+=======Customizers=======
+=========================
+These are custom "hacks" that can be applied to any
+table (with/without custom table visual css).
+If you're already using other classes in your note,
+remember you can stack these in the cssclass 
+parameter, like:
+
+cssclass: tableClass1, hackClass2, userClass3, etc
+
+
+
+/* --------------------------------------------   */
+/* Make tables width same as default note width   */
+/* --------------------------------------------   */
+.wideTable table {
+	min-width: 100%;
+}
+/* --------------------------------------------   */
+
+
+/* --------------------------------------------   */
+/* Left align mandatory                           */
+/* --------------------------------------------   */
+.leftAlign th,
+.leftAlign td {
+	text-align: left !important;  
+}
+/* --------------------------------------------   */
+
+/* --------------------------------------------   */
+.centerAlign th,
+.centerAlign td {
+text-align:center;
+vertical-align:middle;
+}
+/* --------------------------------------------   */
+
+/* --------------------------------------------   */
+/* 1st cell short text, 2nd th bigger text        */
+/* --------------------------------------------   */
+.fixedFc thead tr th:first-child,
+.fixedFc tbody tr td:first-child {
+	width: 8em;
+	min-width: 8em;
+	max-width: 8em;
+	word-break: break-all;
+}
+ 
+.fixedFc td:nth-child(2),
+.fixedFc tr > td:last-of-type { 
+	white-space: nowrap;
+	overflow: hidden;
+  	text-overflow: ellipsis;
+  	max-width: 17em;
+}
+/* --------------------------------------------   */
+
+
+/* --------------------------------------------   */
+/* 1st cell big text, 2nd small.                  */
+/* --------------------------------------------   */
+.wideFc td:nth-child(1),
+.wideFc tr > td:last-of-type { 
+	white-space: nowrap;
+	overflow: hidden;
+  	text-overflow: ellipsis;
+  	max-width: 36em;
+}
+/* --------------------------------------------   */
+
+/* --------------------------------------------   */
+/* If you wanna change table margin, do it here   */
+/* --------------------------------------------   */
+.customMargin table {
+	margin: 25px 0;
+}
+/* --------------------------------------------   */
+    
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+=========================
+======Table styles=======
+=========================
+Almost all table themes here are either 
+frankenstein monsters of their originals
+or related to it. These were found
+on the www inside codepens, stackoverflow 
+threads and forums. Any credit belongs to 
+the creators and this is a free/open tribute
+for these contributions. 
+
+Usage:
+Select any table style to use in your cssclass.
+
+Eg. cssclass: purpleRed
+
+Remember that you can stack hacks!
+
+Eg. cssclass: purpleRed, wideTable
+
+*/
+
+
+
+/* --------------------------------------------   */
+/* Latex table-layout:                            */
+/* --------------------------------------------   */
+.academia table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: auto;
+	/*max-width: 100%;*/
+	border-top: 2.27px solid black;
+	border-bottom: 2.27px solid black;
+	overflow-x: auto;	
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.academia th,
+.academia td {
+	border: 0 none;
+	padding: 0.51rem;
+	line-height: 1.1;
+}
+.academia table > tbody > tr:first-child > td,
+.academia table > tbody > tr:first-child > th {
+	border-top: 1.36px solid black;
+}
+.academia table > tbody > tr:last-child > td,
+.academia table > tbody > tr:last-child > th {
+	border-bottom: 1.36px solid black;
+}
+.academia thead th {
+    background-color: white !important;
+    font-weight: 700;    
+    padding: 8px 9px 5px 9px;
+}
+.academia tr:nth-child(even) {
+      background-color: #ebecf1 ;
+}
+.academia tbody tr:hover td {
+	background-color: #f5f1da;
+}
+/* --------------------------------------------   */
+
