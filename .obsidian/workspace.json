@@ -11,12 +11,8 @@
             "id": "2c5a1eea61eafd21",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -37,9 +33,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -89,7 +83,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,10 +195,18 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "2c5a1eea61eafd21",
+  "active": "8e9f71ad8cc295fc",
   "lastOpenFiles": [
+    "plugin/easy-typing-obsidian.tar.gz",
+    "plugin",
     "README.md",
+    "摄影/images/Pasted image 20231216223432.png",
+    "摄影/images/Pasted image 20231216222545.png",
+    "摄影/images/Pasted image 20231216222436.png",
+    "摄影/images/Pasted image 20231216221237.png",
+    "摄影/images",
     "摄影/摄影前期知识.md",
+    "摄影",
     "摄影/摄影知识.md",
     "pyspark/images/算法美食屋二维码.jpg",
     "pyspark/images/宽依赖窄依赖.png",
@@ -214,10 +214,6 @@
     "pyspark/images/spark架构运行特点.png",
     "pyspark/images/spark架构设计.png",
     "pyspark/images/spark基本概念.png",
-    "pyspark/images/spark和hadoop对比.png",
-    "pyspark/images/spark任务流程.png",
-    "pyspark/images/spark主要特点.png",
-    "pyspark/images/pyspark架构设计.png",
     "pyspark/images",
     "pyspark/image",
     "pyspark/Spark的基本架构.md",
@@ -229,10 +225,7 @@
     "machine learning/house price/data/sample_submission.csv",
     "machine learning/house price/data/data_description.txt",
     "machine learning/house price/新建 Typora.md",
-    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
     "machine learning/house price/stack_regression 阅读笔记.md",
-    "machine learning/house price/images",
-    "machine learning/house price/how-i-made-top-0-3-on-a-kaggle-competition.ipynb",
     "jupyter_notebook/广义线性模型.md",
     "journals/2023_05_21.md",
     "images/Pasted image 20230421134649.png.md",
@@ -250,7 +243,6 @@
     "stack.md",
     "Excalidraw/Drawing 2023-04-29 01.44.34.excalidraw.md",
     "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
-    "2023-04-28.md",
     "未命名.canvas"
   ]
 }
