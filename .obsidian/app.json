@@ -1,0 +1,9 @@
+{
+  "promptDelete": false,
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "./images",
+  "useMarkdownLinks": true,
+  "showIndentGuide": false,
+  "vimMode": false,
+  "foldIndent": false
+}

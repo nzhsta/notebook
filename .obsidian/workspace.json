@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "5f522511a115fde7",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b7178531d43605c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7dce44083a6d0f47",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "237aec31ab369ec3",
+    "type": "split",
+    "children": [
+      {
+        "id": "83d3308b5662f337",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ef263859aeea5db",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "8e9f71ad8cc295fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6a3c5102fc1db3a0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "938a73a784ac2a68",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ad791dd8ab70742",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f1c98bec55b2fdb4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "e545383b6f62e680",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f147300aac8bc5d7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 299.5
+  },
+  "right": {
+    "id": "284957970ca8c19b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec2edeb4b60ec11f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b25ae8cf0b5e3b9f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1e3cdb275d4bcc8b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ae657058e4316a3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "d81d45d4134b095c",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "d683c41c83b5ebfd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 437.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-full-calendar:Open Full Calendar": false
+    }
+  },
+  "active": "3ae657058e4316a3",
+  "lastOpenFiles": [
+    "README.md",
+    "摄影/摄影前期知识.md",
+    "摄影/摄影知识.md",
+    "pyspark/images/算法美食屋二维码.jpg",
+    "pyspark/images/宽依赖窄依赖.png",
+    "pyspark/images/spark通用性.png",
+    "pyspark/images/spark架构运行特点.png",
+    "pyspark/images/spark架构设计.png",
+    "pyspark/images/spark基本概念.png",
+    "pyspark/images/spark和hadoop对比.png",
+    "pyspark/images/spark任务流程.png",
+    "pyspark/images/spark主要特点.png",
+    "pyspark/images/pyspark架构设计.png",
+    "pyspark/images",
+    "pyspark/image",
+    "pyspark/Spark的基本架构.md",
+    "pyspark/02    常用算子详解.md",
+    "pyspark/01    初识RDD.md",
+    "pyspark",
+    "machine learning/house price/data/train.csv",
+    "machine learning/house price/data/test.csv",
+    "machine learning/house price/data/sample_submission.csv",
+    "machine learning/house price/data/data_description.txt",
+    "machine learning/house price/新建 Typora.md",
+    "machine learning/house price/stacked-regressions-top-4-on-leaderboard.ipynb",
+    "machine learning/house price/stack_regression 阅读笔记.md",
+    "machine learning/house price/images",
+    "machine learning/house price/how-i-made-top-0-3-on-a-kaggle-competition.ipynb",
+    "jupyter_notebook/广义线性模型.md",
+    "journals/2023_05_21.md",
+    "images/Pasted image 20230421134649.png.md",
+    "Excalidraw/Drawing 2023-04-13 21.56.40.excalidraw.md",
+    "pyspark/Spark的基本架构~.md",
+    "pyspark/RDD常用算子~.md",
+    "未命名 1.md",
+    "conflict-files-obsidian-git.md",
+    "2023-05-13.md",
+    "query.md",
+    "jupyter_notebook/2023-05-07 打架.md",
+    "machine learning/house price/Drawing 2023-05-02 00.05.27.excalidraw.md",
+    "sstacked-regressions-top-4-on-leaderboard.ipynb.md",
+    "stacked-regressions-top-4-on-leaderboard.md",
+    "stack.md",
+    "Excalidraw/Drawing 2023-04-29 01.44.34.excalidraw.md",
+    "learning notebook/eat_pyspark_in_10_days-master/1-1,快速搭建你的Spark开发环境.md",
+    "2023-04-28.md",
+    "未命名.canvas"
+  ]
+}
