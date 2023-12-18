@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "6b7178531d43605c",
+        "id": "aed203dd00541cc6",
         "type": "tabs",
         "children": [
           {
-            "id": "7dce44083a6d0f47",
+            "id": "2c5a1eea61eafd21",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -33,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -83,6 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -94,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +180,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -194,7 +203,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "3ae657058e4316a3",
+  "active": "2c5a1eea61eafd21",
   "lastOpenFiles": [
     "README.md",
     "摄影/摄影前期知识.md",
